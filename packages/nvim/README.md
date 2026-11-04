@@ -21,7 +21,7 @@ your terminal for the glyphs to render.
 
 ```lua
 {
-    "makindajack/makinda-icons",
+    "chaliidesigns/makinda-icons",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
         require("nvim-web-devicons").setup({ default = true })
@@ -37,7 +37,7 @@ your terminal for the glyphs to render.
 
 ```lua
 use({
-    "makindajack/makinda-icons",
+    "chaliidesigns/makinda-icons",
     requires = { "nvim-tree/nvim-web-devicons" },
     config = function()
         require("makinda-icons").setup()

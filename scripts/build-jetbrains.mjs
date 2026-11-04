@@ -150,7 +150,7 @@ const pkgJson = JSON.parse(fs.readFileSync(path.join(repoRoot, "package.json"), 
 const pluginXml = `<idea-plugin>
     <id>com.makinda.icons</id>
     <name>Makinda Icons</name>
-    <vendor email="hello@makinda.dev" url="https://github.com/makindajack/makinda-icons">Makinda Jackson</vendor>
+    <vendor email="hello@makinda.dev" url="https://github.com/chaliidesigns/makinda-icons">Makinda Jackson</vendor>
 
     <description><![CDATA[
         File icons for the IntelliJ Platform — tuned for the Makinda brand, tuned for the Makinda brand.<br/>

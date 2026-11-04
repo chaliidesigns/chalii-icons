@@ -76,7 +76,7 @@ Edit [scripts/manifest.mjs](scripts/manifest.mjs) and re-run `npm run build`. Th
 
 ## Companion extension
 
-The matching **color theme** (Makinda Light + Makinda Dark) lives in [makinda-themes](https://github.com/makindajack/makinda-themes). The two are designed to be installed together but ship separately.
+The matching **color theme** (Makinda Light + Makinda Dark) lives in [makinda-themes](https://github.com/chaliidesigns/makinda-themes). The two are designed to be installed together but ship separately.
 
 ## License
 

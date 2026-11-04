@@ -125,7 +125,7 @@ before launching it.
 
 If a registry isn't reachable, every editor listed above accepts a local `.vsix`:
 
-1. Download `makinda-icons-<version>.vsix` from the [GitHub Releases](https://github.com/makindajack/makinda-icons/releases) page.
+1. Download `makinda-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/makinda-icons/releases) page.
 2. In your editor: **Extensions** view → `…` menu → **Install from VSIX…** → pick the file.
 3. Reload if prompted.
 
@@ -137,7 +137,7 @@ CLI alternative — works for VS Code, VSCodium, Cursor, Windsurf, Trae, code-se
 
 ### Not yet supported
 
-JetBrains IDEs, Sublime Text, Neovim, Emacs, Xcode, Visual Studio (Windows), Fleet, and Zed don't implement the VS Code icon-theme format. Separate ports are tracked in the [roadmap](https://github.com/makindajack/makinda-icons/blob/main/docs/overview/roadmap.md).
+JetBrains IDEs, Sublime Text, Neovim, Emacs, Xcode, Visual Studio (Windows), Fleet, and Zed don't implement the VS Code icon-theme format. Separate ports are tracked in the [roadmap](https://github.com/chaliidesigns/makinda-icons/blob/main/docs/overview/roadmap.md).
 
 ---
 
@@ -213,7 +213,7 @@ Auto-switch with your OS appearance:
 
 **Icons didn't change after installing.** Run **Preferences: File Icon Theme** _and_ **Preferences: Product Icon Theme** explicitly — installation alone doesn't activate either.
 
-**A specific file type still uses the default icon.** That extension isn't in the starter set yet. Open an [issue](https://github.com/makindajack/makinda-icons/issues) with the extension name and I'll add it.
+**A specific file type still uses the default icon.** That extension isn't in the starter set yet. Open an [issue](https://github.com/chaliidesigns/makinda-icons/issues) with the extension name and I'll add it.
 
 **Some UI icons (gutter, status bar) are unchanged.** Product Icon Themes can only override icons whose codicon ID is mapped. Anything not yet in the manifest falls back to the built-in codicon — that's by design, not a bug. The list of overrides will grow.
 
@@ -223,10 +223,10 @@ Auto-switch with your OS appearance:
 
 ## Links
 
-- [GitHub repository](https://github.com/makindajack/makinda-icons)
-- [Report an issue](https://github.com/makindajack/makinda-icons/issues)
-- [Roadmap](https://github.com/makindajack/makinda-icons/blob/main/docs/overview/roadmap.md)
-- [Contributing & build docs](https://github.com/makindajack/makinda-icons/blob/main/docs/README.dev.md)
+- [GitHub repository](https://github.com/chaliidesigns/makinda-icons)
+- [Report an issue](https://github.com/chaliidesigns/makinda-icons/issues)
+- [Roadmap](https://github.com/chaliidesigns/makinda-icons/blob/main/docs/overview/roadmap.md)
+- [Contributing & build docs](https://github.com/chaliidesigns/makinda-icons/blob/main/docs/README.dev.md)
 - [Companion color theme: Makinda Themes](https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-themes)
 
 ---

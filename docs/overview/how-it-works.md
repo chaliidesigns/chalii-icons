@@ -83,7 +83,7 @@ If a file icon doesn't appear, the most common causes are:
 
 ## Relationship to Makinda Themes
 
-[Makinda Themes](https://github.com/makindajack/makinda-themes) is the sibling **color theme** extension (Makinda Light + Makinda Dark). The two are designed to be installed together but are released as separate extensions:
+[Makinda Themes](https://github.com/chaliidesigns/makinda-themes) is the sibling **color theme** extension (Makinda Light + Makinda Dark). The two are designed to be installed together but are released as separate extensions:
 
 | Concern                            | Extension                            |
 | ---------------------------------- | ------------------------------------ |

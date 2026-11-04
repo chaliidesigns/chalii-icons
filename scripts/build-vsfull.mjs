@@ -185,7 +185,7 @@ const vsixManifest = `<?xml version="1.0" encoding="utf-8"?>
         <Identity Id="${pkgJson.publisher}.${PKG_NAME}" Version="${PKG_VERSION}" Language="en-US" Publisher="Makinda Jackson" />
         <DisplayName>Makinda Icons</DisplayName>
         <Description xml:space="preserve">File icons for Visual Studio — same icon set as the Makinda Icons VS Code extension. ${renderedIcons} file icons via the Image Service.</Description>
-        <MoreInfo>https://github.com/makindajack/makinda-icons</MoreInfo>
+        <MoreInfo>https://github.com/chaliidesigns/makinda-icons</MoreInfo>
         <License>LICENSE.md</License>
         <Tags>icons, file-icons, theme, makinda</Tags>
     </Metadata>

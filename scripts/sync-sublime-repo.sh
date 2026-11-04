@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Mirror packages/sublime/Makinda Icons/ to the standalone Package Control repo
-# at github.com/makindajack/makinda-icons-sublime, then tag the new version.
+# at github.com/chaliidesigns/makinda-icons-sublime, then tag the new version.
 #
 # Why a separate repo: Package Control's channel format only supports
 # whole-repo fetches, not subdirectories. The mirror exists solely so
@@ -21,7 +21,7 @@ fi
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SRC="$REPO_ROOT/packages/sublime/Makinda Icons"
 MIRROR_DIR="$(mktemp -d -t makinda-icons-sublime.XXXXXX)"
-MIRROR_REMOTE="git@github.com:makindajack/makinda-icons-sublime.git"
+MIRROR_REMOTE="git@github.com:chaliidesigns/makinda-icons-sublime.git"
 
 echo "→ syncing Sublime mirror to v$VERSION"
 echo "  source: $SRC"
@@ -50,7 +50,7 @@ else
     git commit -m "Sync v$VERSION
 
 Mirror of packages/sublime/Makinda Icons/ from
-https://github.com/makindajack/makinda-icons at tag v$VERSION."
+https://github.com/chaliidesigns/makinda-icons at tag v$VERSION."
 fi
 
 git tag -a "v$VERSION" -m "v$VERSION"

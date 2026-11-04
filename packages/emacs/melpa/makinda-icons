@@ -1,5 +1,5 @@
 (makinda-icons
   :fetcher github
-  :repo "makinda-jackson/makinda-icons"
+  :repo "chaliidesigns/makinda-icons"
   :files ("packages/emacs/makinda-icons.el")
   :commit "HEAD")
