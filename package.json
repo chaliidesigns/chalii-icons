@@ -4,7 +4,7 @@
   "description": "Multi-style icon themes for VS Code by Makinda Jackson. File icons + product icons.",
   "version": "1.2.1",
   "publisher": "makindajack",
-  "icon": "images/icon-dark.png",
+  "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#0e0e0f",
     "theme": "dark"

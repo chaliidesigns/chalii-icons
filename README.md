@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="images/icon-dark.png" alt="Chalii Icons" width="128">
+  <img src="images/icon.png" alt="Chalii Icons" width="128">
   <br>
   Chalii Icons
   <br>
