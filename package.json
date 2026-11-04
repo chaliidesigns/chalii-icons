@@ -25,12 +25,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chaliidesigns/makinda-icons.git"
+    "url": "https://github.com/chaliidesigns/chalii-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/chaliidesigns/makinda-icons/issues"
+    "url": "https://github.com/chaliidesigns/chalii-icons/issues"
   },
-  "homepage": "https://github.com/chaliidesigns/makinda-icons#readme",
+  "homepage": "https://github.com/chaliidesigns/chalii-icons#readme",
   "contributes": {
     "iconThemes": [
       {

@@ -103,7 +103,7 @@ All notable changes to **Makinda Icons** will be documented in this file.
 ### Notes
 
 - Product icons already adapt automatically (since 1.0.3) via `fill="currentColor"`. They inherit whatever foreground color the active color theme defines.
-- Light/dark fills are taken from the [makinda-themes](https://github.com/chaliidesigns/makinda-themes) palette: `fg.default` for each variant.
+- Light/dark fills are taken from the [makinda-themes](https://github.com/chaliidesigns/chalii-themes) palette: `fg.default` for each variant.
 
 ## [1.0.6] — 2026-05-06
 
@@ -123,7 +123,7 @@ All notable changes to **Makinda Icons** will be documented in this file.
 
 ### Added
 
-- Brand identity from [makinda-themes](https://github.com/chaliidesigns/makinda-themes): logo (`images/icon.png`) is now the Marketplace icon, and the README ships a centered logo banner with version / downloads / rating badges in brand orange (`#ff6b0d`).
+- Brand identity from [makinda-themes](https://github.com/chaliidesigns/chalii-themes): logo (`images/icon.png`) is now the Marketplace icon, and the README ships a centered logo banner with version / downloads / rating badges in brand orange (`#ff6b0d`).
 - `galleryBanner` set to `#0e0e0f` (Makinda Dark editor background) so the Marketplace header matches the brand.
 
 ## [1.0.3] — 2026-05-06
@@ -153,7 +153,7 @@ First public release.
 ### Notes
 
 - Other upstream styles (Duotone, Twotone, Stroke, Bulk, Sharp Solid, Sharp Stroke) are scaffolded but disabled until later phases. See [`docs/project-scope.md`](docs/project-scope.md).
-- Companion color theme: [makinda-themes](https://github.com/chaliidesigns/makinda-themes).
+- Companion color theme: [makinda-themes](https://github.com/chaliidesigns/chalii-themes).
 
 ## [Unreleased]
 

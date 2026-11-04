@@ -25,7 +25,7 @@ straight from the monorepo checkout:
 ```elisp
 (use-package makinda-icons
   :straight (:host github
-             :repo "chaliidesigns/makinda-icons"
+             :repo "chaliidesigns/chalii-icons"
              :files ("packages/emacs/makinda-icons.el"))
   :after nerd-icons
   :config (makinda-icons-setup))

@@ -133,7 +133,7 @@ gh release create "v$NEW" \
 
 ### 7. Sync the Sublime mirror repo
 
-Package Control fetches whole repos at git tags — it can't read a subdirectory. We keep a tagged mirror at <https://github.com/chaliidesigns/makinda-icons-sublime>.
+Package Control fetches whole repos at git tags — it can't read a subdirectory. We keep a tagged mirror at <https://github.com/chaliidesigns/chalii-icons-sublime>.
 
 ```sh
 ./scripts/sync-sublime-repo.sh "$NEW"
@@ -155,7 +155,7 @@ Live within ~5 minutes at <https://marketplace.visualstudio.com/items?itemName=m
 OVSX_PAT="$OPEN_VSX_TOKEN" npx --yes ovsx publish "makinda-icons-$NEW.vsix"
 ```
 
-Live within seconds at <https://open-vsx.org/extension/chaliidesigns/makinda-icons>. Unlocks VSCodium, Cursor, Windsurf, Trae, Gitpod, Theia, code-server.
+Live within seconds at <https://open-vsx.org/extension/chaliidesigns/chalii-icons>. Unlocks VSCodium, Cursor, Windsurf, Trae, Gitpod, Theia, code-server.
 
 > **First-time only:** run `OVSX_PAT="…" npx ovsx create-namespace makindajack` once before the first publish.
 
@@ -178,7 +178,7 @@ One-time: open a PR adding `recipes/makinda-icons` to <https://github.com/melpa/
 ```sh
 (makinda-icons
  :fetcher github
- :repo "chaliidesigns/makinda-icons"
+ :repo "chaliidesigns/chalii-icons"
  :files ("packages/emacs/makinda-icons.el"))
 ```
 
@@ -186,12 +186,12 @@ After the recipe is merged, MELPA rebuilds automatically on every new git tag �
 
 ### 12. Package Control (Sublime) — first publish only
 
-One-time: open a PR adding an entry to `repository/m.json` in <https://github.com/sublimehq/package_control_channel> pointing at `chaliidesigns/makinda-icons-sublime`.
+One-time: open a PR adding an entry to `repository/m.json` in <https://github.com/sublimehq/package_control_channel> pointing at `chaliidesigns/chalii-icons-sublime`.
 
 ```json
 {
   "name": "Makinda Icons",
-  "details": "https://github.com/chaliidesigns/makinda-icons-sublime",
+  "details": "https://github.com/chaliidesigns/chalii-icons-sublime",
   "labels": ["theme", "icons", "file icons"],
   "releases": [{ "sublime_text": ">=3000", "platforms": ["*"], "tags": true }]
 }
@@ -227,7 +227,7 @@ curl -s -X POST "https://marketplace.visualstudio.com/_apis/public/gallery/exten
   | python3 -c "import sys,json; print('vsce:', json.load(sys.stdin)['results'][0]['extensions'][0]['versions'][0]['version'])"
 
 # Open VSX
-curl -s "https://open-vsx.org/api/chaliidesigns/makinda-icons" \
+curl -s "https://open-vsx.org/api/chaliidesigns/chalii-icons" \
   | python3 -c "import sys,json; print('ovsx:', json.load(sys.stdin)['version'])"
 
 # JetBrains (returns plugin page HTML; grep for the version)

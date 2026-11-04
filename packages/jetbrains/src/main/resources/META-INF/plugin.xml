@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.makinda.icons</id>
     <name>Makinda Icons</name>
-    <vendor email="hello@makinda.dev" url="https://github.com/chaliidesigns/makinda-icons">Makinda Jackson</vendor>
+    <vendor email="hello@makinda.dev" url="https://github.com/chaliidesigns/chalii-icons">Makinda Jackson</vendor>
 
     <description><![CDATA[
         Beautiful, consistent file icons for the IntelliJ Platform — the same icon set

@@ -2,7 +2,7 @@ package = "makinda-icons-nvim"
 version = "1.1.0-1"
 
 source = {
-    url    = "git+https://github.com/chaliidesigns/makinda-icons.git",
+    url    = "git+https://github.com/chaliidesigns/chalii-icons.git",
     tag    = "nvim/v1.1.0",
 }
 
@@ -15,7 +15,7 @@ description = {
         Font codepoint plus a Makinda palette color.  Supports dark and light
         terminal themes via per-icon light_color overrides.
     ]],
-    homepage = "https://github.com/chaliidesigns/makinda-icons",
+    homepage = "https://github.com/chaliidesigns/chalii-icons",
     license  = "MIT",
 }
 

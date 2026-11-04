@@ -64,7 +64,7 @@ Not work-in-progress — listed for visibility. Each needs accounts, tokens, Win
 | Submit to **Package Control** (Sublime)   | PR against wbond/package_control_channel                                                           |
 | Publish to **Visual Studio Marketplace**  | Microsoft account + Windows + VS 2022 for sign-off                                                 |
 | **Smoke-test VSIX** in Visual Studio 2022 | Windows machine                                                                                    |
-| Publish nvim plugin as standalone repo    | Decision: standalone `chaliidesigns/makinda-icons.nvim` repo vs. `packages/nvim` subtree             |
+| Publish nvim plugin as standalone repo    | Decision: standalone `chaliidesigns/chalii-icons.nvim` repo vs. `packages/nvim` subtree             |
 
 ---
 

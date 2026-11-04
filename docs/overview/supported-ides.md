@@ -48,7 +48,7 @@ If your editor only sees one of the two registries, install from the one it supp
 
 If a registry isn't reachable, every listed editor accepts a local `.vsix`:
 
-1. Download `makinda-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/makinda-icons/releases) page.
+1. Download `makinda-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/chalii-icons/releases) page.
 2. Open the editor's **Extensions** view → `…` menu → **Install from VSIX…**
 3. Select the file. Reload if prompted.
 
@@ -100,4 +100,4 @@ If Makinda Icons looks wrong in a listed editor, please open an issue with:
 - Whether file icons, product icons, or both are affected
 - A screenshot if visual
 
-→ [github.com/chaliidesigns/makinda-icons/issues](https://github.com/chaliidesigns/makinda-icons/issues)
+→ [github.com/chaliidesigns/chalii-icons/issues](https://github.com/chaliidesigns/chalii-icons/issues)
