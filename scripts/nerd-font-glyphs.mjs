@@ -9,7 +9,7 @@
 //   color        : GUI hex color used in graphical clients
 //   cterm_color  : 0-255 ANSI color used in terminal clients
 //
-// Colors lean on Makinda's brand palette + functional accents. Anything
+// Colors lean on Chalii's brand palette + functional accents. Anything
 // missing from this table falls back to the generic "file" entry.
 //
 // Reference: https://www.nerdfonts.com/cheat-sheet

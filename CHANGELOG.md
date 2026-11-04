@@ -157,6 +157,9 @@ First public release.
 
 ## [Unreleased]
 
+### Changed
+- Rebranded from **Makinda Icons** to **Chalii Icons**: display names, theme/scheme names, file names and package identifiers now use "Chalii". Entries below this one keep the historical names.
+
 - Refactored to multi-style architecture: each upstream style ships as its own theme variant.
 - Added [`docs/project-scope.md`](docs/project-scope.md) defining phases, naming, and workflow.
 - **Phase 1 active: Solid (filled).** Other styles scaffolded (Duotone, Twotone, Stroke, Bulk, Sharp Solid, Sharp Stroke) but disabled.

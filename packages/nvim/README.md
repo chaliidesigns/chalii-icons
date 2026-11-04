@@ -1,12 +1,12 @@
-# Makinda Icons for Neovim
+# Chalii Icons for Neovim
 
 File-icon overlay for [`nvim-web-devicons`][devicons] using the same icon
-manifest as the [Makinda Icons VS Code extension][vscode] and the
+manifest as the [Chalii Icons VS Code extension][vscode] and the
 [JetBrains plugin](../jetbrains/README.md).
 
 Terminal Neovim is a monochrome (glyph-only) world, so this package maps each
-Makinda file type to the closest [Nerd Font][nerdfont] codepoint plus a color
-from the Makinda palette. You'll need a Nerd Font installed and selected in
+Chalii file type to the closest [Nerd Font][nerdfont] codepoint plus a color
+from the Chalii palette. You'll need a Nerd Font installed and selected in
 your terminal for the glyphs to render.
 
 ## Requirements
@@ -25,13 +25,13 @@ your terminal for the glyphs to render.
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
         require("nvim-web-devicons").setup({ default = true })
-        require("makinda-icons").setup()
+        require("chalii-icons").setup()
     end,
 }
 ```
 
 > Until this package is published as its own repository, point lazy at a
-> local checkout: `dir = "/path/to/makinda-icons/packages/nvim"`.
+> local checkout: `dir = "/path/to/chalii-icons/packages/nvim"`.
 
 ### packer.nvim
 
@@ -40,31 +40,31 @@ use({
     "chaliidesigns/chalii-icons",
     requires = { "nvim-tree/nvim-web-devicons" },
     config = function()
-        require("makinda-icons").setup()
+        require("chalii-icons").setup()
     end,
 })
 ```
 
 ### Manual
 
-Copy `lua/makinda-icons/` somewhere on your `runtimepath` and add:
+Copy `lua/chalii-icons/` somewhere on your `runtimepath` and add:
 
 ```lua
-require("makinda-icons").setup()
+require("chalii-icons").setup()
 ```
 
 ## API
 
 ```lua
-local makinda = require("makinda-icons")
+local chalii = require("chalii-icons")
 
 -- Apply the overlay (idempotent). Call after nvim-web-devicons is loaded.
-makinda.setup({
+chalii.setup({
     default_icon = false,  -- set to true to also override devicons' fallback
 })
 
--- Look up a Makinda icon by canonical name.
-local def = makinda.get("markdown")
+-- Look up a Chalii icon by canonical name.
+local def = chalii.get("markdown")
 -- def == { icon = "", color = "#e7e8ea", cterm_color = "250", name = "Markdown" }
 ```
 
@@ -80,18 +80,18 @@ Re-run `npm run build:nvim` from the repo root after editing the manifest.
 ## Limitations
 
 - **Monochrome glyphs.** Terminal Neovim can't render the SVGs
-  themselves; you get a Nerd Font codepoint instead. The Makinda _colors_ still
+  themselves; you get a Nerd Font codepoint instead. The Chalii _colors_ still
   apply via the highlight group set by `nvim-web-devicons`.
 - **No directory icons.** `nvim-web-devicons` only themes files. If you want
   directory icons in `nvim-tree` / `neo-tree`, configure those plugins
-  separately — Makinda doesn't override them.
+  separately — Chalii doesn't override them.
 - **Glyph drift.** Nerd Font codepoints occasionally shift between font
   versions. If you see a tofu (□), bump your Nerd Font and reapply.
 
 ## License
 
-[MIT](../../LICENSE.md) — same as the rest of the Makinda Icons monorepo.
+[MIT](../../LICENSE.md) — same as the rest of the Chalii Icons monorepo.
 
 [devicons]: https://github.com/nvim-tree/nvim-web-devicons
-[vscode]: https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons
+[vscode]: https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons
 [nerdfont]: https://www.nerdfonts.com

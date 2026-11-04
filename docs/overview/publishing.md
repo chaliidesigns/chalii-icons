@@ -1,4 +1,4 @@
-# Publishing Makinda Icons
+# Publishing Chalii Icons
 
 A repeatable checklist. Run top-to-bottom every time `package.json` `version` bumps. **One git tag, one CHANGELOG entry, one publish pass across every marketplace.**
 
@@ -21,7 +21,7 @@ npm version "$NEW" --no-git-tag-version
 npm run build:all
 
 # 4. Package the VS Code extension
-npx @vscode/vsce package --no-dependencies --out "makinda-icons-$NEW.vsix"
+npx @vscode/vsce package --no-dependencies --out "chalii-icons-$NEW.vsix"
 
 # 5. Commit, tag, push
 git add -A
@@ -34,14 +34,14 @@ git push origin main "v$NEW"
 
 # 7. GitHub release (drag .vsix files in, or use gh)
 gh release create "v$NEW" \
-  "makinda-icons-$NEW.vsix" \
-  packages/sublime/makinda-icons.sublime-package \
-  packages/visualstudio/makinda-icons.vsix \
+  "chalii-icons-$NEW.vsix" \
+  packages/sublime/chalii-icons.sublime-package \
+  packages/visualstudio/chalii-icons.vsix \
   --title "v$NEW" --notes-from-tag
 
 # 8. Marketplaces
-npx @vscode/vsce publish --packagePath "makinda-icons-$NEW.vsix"
-OVSX_PAT="$OPEN_VSX_TOKEN"  npx ovsx publish "makinda-icons-$NEW.vsix"
+npx @vscode/vsce publish --packagePath "chalii-icons-$NEW.vsix"
+OVSX_PAT="$OPEN_VSX_TOKEN"  npx ovsx publish "chalii-icons-$NEW.vsix"
 ( cd packages/jetbrains && PUBLISH_TOKEN="$JETBRAINS_TOKEN" ./gradlew publishPlugin )
 # MELPA + Package Control + Visual Studio: see sections below — only on first publish
 ```
@@ -97,16 +97,16 @@ This regenerates 7 outputs in lock-step:
 
 1. `themes/*.json` + 252 SVGs (VS Code)
 2. `packages/jetbrains/build/distributions/*.zip` (JetBrains)
-3. `packages/nvim/lua/makinda-icons/{init,icons,mini}.lua` (Neovim)
-4. `packages/emacs/makinda-icons.el` (Emacs)
-5. `packages/sublime/makinda-icons.sublime-package` (Sublime)
-6. `packages/visualstudio/makinda-icons.vsix` (Visual Studio)
+3. `packages/nvim/lua/chalii-icons/{init,icons,mini}.lua` (Neovim)
+4. `packages/emacs/chalii-icons.el` (Emacs)
+5. `packages/sublime/chalii-icons.sublime-package` (Sublime)
+6. `packages/visualstudio/chalii-icons.vsix` (Visual Studio)
 7. `images/contact-sheet.solid.png` (visual QA)
 
 ### 4. Package the VS Code VSIX
 
 ```sh
-npx --yes @vscode/vsce package --no-dependencies --out "makinda-icons-$NEW.vsix"
+npx --yes @vscode/vsce package --no-dependencies --out "chalii-icons-$NEW.vsix"
 ```
 
 `--no-dependencies` is required because this is a pure-asset extension (no Node code).
@@ -124,9 +124,9 @@ git push origin main "v$NEW"
 
 ```sh
 gh release create "v$NEW" \
-  "makinda-icons-$NEW.vsix" \
-  packages/sublime/makinda-icons.sublime-package \
-  packages/visualstudio/makinda-icons.vsix \
+  "chalii-icons-$NEW.vsix" \
+  packages/sublime/chalii-icons.sublime-package \
+  packages/visualstudio/chalii-icons.vsix \
   --title "v$NEW" \
   --notes-from-tag
 ```
@@ -144,15 +144,15 @@ Package Control fetches whole repos at git tags — it can't read a subdirectory
 ### 8. Publish: VS Code Marketplace
 
 ```sh
-npx --yes @vscode/vsce publish --packagePath "makinda-icons-$NEW.vsix"
+npx --yes @vscode/vsce publish --packagePath "chalii-icons-$NEW.vsix"
 ```
 
-Live within ~5 minutes at <https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons>.
+Live within ~5 minutes at <https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons>.
 
 ### 9. Publish: Open VSX
 
 ```sh
-OVSX_PAT="$OPEN_VSX_TOKEN" npx --yes ovsx publish "makinda-icons-$NEW.vsix"
+OVSX_PAT="$OPEN_VSX_TOKEN" npx --yes ovsx publish "chalii-icons-$NEW.vsix"
 ```
 
 Live within seconds at <https://open-vsx.org/extension/chaliidesigns/chalii-icons>. Unlocks VSCodium, Cursor, Windsurf, Trae, Gitpod, Theia, code-server.
@@ -169,17 +169,17 @@ cd ../..
 
 > **First-time only:** new plugins go through manual moderation (1–3 business days). Subsequent updates are typically auto-approved within minutes if no major changes.
 
-Live at <https://plugins.jetbrains.com/plugin/makinda-icons>.
+Live at <https://plugins.jetbrains.com/plugin/chalii-icons>.
 
 ### 11. MELPA (Emacs) — first publish only
 
-One-time: open a PR adding `recipes/makinda-icons` to <https://github.com/melpa/melpa>.
+One-time: open a PR adding `recipes/chalii-icons` to <https://github.com/melpa/melpa>.
 
 ```sh
-(makinda-icons
+(chalii-icons
  :fetcher github
  :repo "chaliidesigns/chalii-icons"
- :files ("packages/emacs/makinda-icons.el"))
+ :files ("packages/emacs/chalii-icons.el"))
 ```
 
 After the recipe is merged, MELPA rebuilds automatically on every new git tag — **no further action needed for subsequent releases**.
@@ -190,7 +190,7 @@ One-time: open a PR adding an entry to `repository/m.json` in <https://github.co
 
 ```json
 {
-  "name": "Makinda Icons",
+  "name": "Chalii Icons",
   "details": "https://github.com/chaliidesigns/chalii-icons-sublime",
   "labels": ["theme", "icons", "file icons"],
   "releases": [{ "sublime_text": ">=3000", "platforms": ["*"], "tags": true }]
@@ -204,8 +204,8 @@ Subsequent releases are picked up automatically from new git tags on the mirror 
 Cannot be automated. For each release:
 
 1. Go to <https://marketplace.visualstudio.com/manage/publishers/makindajack>.
-2. Find **Makinda Icons** → **Edit** → **New version**.
-3. Drag `packages/visualstudio/makinda-icons.vsix` into the upload field.
+2. Find **Chalii Icons** → **Edit** → **New version**.
+3. Drag `packages/visualstudio/chalii-icons.vsix` into the upload field.
 4. Save. Microsoft scans the package (~5 min) and goes live.
 
 > **Pre-flight (recommended):** test the VSIX in a Windows VS 2022 install before each publish. The build is structurally validated at every commit by CI, but only Windows can confirm runtime behavior.
@@ -223,7 +223,7 @@ NEW=1.0.13   # whatever you just released
 curl -s -X POST "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery" \
   -H "Accept: application/json;api-version=3.0-preview.1" \
   -H "Content-Type: application/json" \
-  -d '{"filters":[{"criteria":[{"filterType":7,"value":"makindajack.makinda-icons"}]}],"flags":914}' \
+  -d '{"filters":[{"criteria":[{"filterType":7,"value":"makindajack.chalii-icons"}]}],"flags":914}' \
   | python3 -c "import sys,json; print('vsce:', json.load(sys.stdin)['results'][0]['extensions'][0]['versions'][0]['version'])"
 
 # Open VSX
@@ -231,7 +231,7 @@ curl -s "https://open-vsx.org/api/chaliidesigns/chalii-icons" \
   | python3 -c "import sys,json; print('ovsx:', json.load(sys.stdin)['version'])"
 
 # JetBrains (returns plugin page HTML; grep for the version)
-curl -s "https://plugins.jetbrains.com/plugin/makinda-icons" | grep -o "Version $NEW" | head -1
+curl -s "https://plugins.jetbrains.com/plugin/chalii-icons" | grep -o "Version $NEW" | head -1
 ```
 
 ---
@@ -244,7 +244,7 @@ curl -s "https://plugins.jetbrains.com/plugin/makinda-icons" | grep -o "Version 
 | `ovsx publish` returns "Unknown publisher" | First-time only: `OVSX_PAT=… npx ovsx create-namespace makindajack`               |
 | JetBrains plugin page 404 after publish    | Moderation queue. Check status at <https://plugins.jetbrains.com/author/me>       |
 | Need to unpublish a broken release         | All three marketplaces support it via their dashboards. Open VSX is fastest.      |
-| MELPA build broken                         | Watch <https://melpa.org/packages/makinda-icons-badge.svg> — turns red on failure |
+| MELPA build broken                         | Watch <https://melpa.org/packages/chalii-icons-badge.svg> — turns red on failure |
 
 ---
 

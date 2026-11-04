@@ -1,6 +1,6 @@
 # Versioning policy
 
-Makinda Icons is a **single repo with multiple emitter targets**. To keep
+Chalii Icons is a **single repo with multiple emitter targets**. To keep
 release ops manageable, we use one repo-wide version number and one git tag
 per release. Per-package versions only diverge when a target needs a hotfix
 that the others don't.
@@ -13,7 +13,7 @@ that the others don't.
    - `packages/jetbrains/build.gradle.kts` — `version` property
    - `scripts/build-vsfull.mjs` — `extension.vsixmanifest` `<Version>`
    - `scripts/build-sublime.mjs` — copied into the package's `messages.json` if used
-   - `scripts/build-emacs.mjs` — `;; Version:` header in `makinda-icons.el`
+   - `scripts/build-emacs.mjs` — `;; Version:` header in `chalii-icons.el`
    - `scripts/build-nvim.mjs` — emitted as `M.version` in `init.lua` (informational)
 3. **One git tag per release: `v<version>`** (e.g. `v1.1.0`). The tag carries
    all emitter outputs as release artifacts.

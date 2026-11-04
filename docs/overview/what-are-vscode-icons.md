@@ -64,16 +64,16 @@ In `package.json`:
   "contributes": {
     "iconThemes": [
       {
-        "id": "makinda-file-icons",
-        "label": "Makinda File Icons",
-        "path": "./themes/makinda-file-icon-theme.json",
+        "id": "chalii-file-icons",
+        "label": "Chalii File Icons",
+        "path": "./themes/chalii-file-icon-theme.json",
       },
     ],
     "productIconThemes": [
       {
-        "id": "makinda-product-icons",
-        "label": "Makinda Product Icons",
-        "path": "./themes/makinda-product-icon-theme.json",
+        "id": "chalii-product-icons",
+        "label": "Chalii Product Icons",
+        "path": "./themes/chalii-product-icon-theme.json",
       },
     ],
   },

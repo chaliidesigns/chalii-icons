@@ -12,17 +12,17 @@ Two valid shapes. Almost everyone uses the **font-based** shape because it match
 {
   "fonts": [
     {
-      "id": "makinda",
-      "src": [{ "path": "./fonts/makinda.woff", "format": "woff" }],
+      "id": "chalii",
+      "src": [{ "path": "./fonts/chalii.woff", "format": "woff" }],
       "weight": "normal",
       "style": "normal",
     },
   ],
   "iconDefinitions": {
-    "chevron-down": { "fontCharacter": "\\ea4e", "fontId": "makinda" },
-    "chevron-right": { "fontCharacter": "\\eab6", "fontId": "makinda" },
-    "gear": { "fontCharacter": "\\eaf8", "fontId": "makinda" },
-    "search": { "fontCharacter": "\\ea6d", "fontId": "makinda" },
+    "chevron-down": { "fontCharacter": "\\ea4e", "fontId": "chalii" },
+    "chevron-right": { "fontCharacter": "\\eab6", "fontId": "chalii" },
+    "gear": { "fontCharacter": "\\eaf8", "fontId": "chalii" },
+    "search": { "fontCharacter": "\\ea6d", "fontId": "chalii" },
   },
 }
 ```
@@ -88,9 +88,9 @@ Product icon themes are contributed via the same extension manifest as file icon
 "contributes": {
   "productIconThemes": [
     {
-      "id": "makinda-product-icons",
-      "label": "Makinda Product Icons",
-      "path": "./themes/makinda-product-icon-theme.json"
+      "id": "chalii-product-icons",
+      "label": "Chalii Product Icons",
+      "path": "./themes/chalii-product-icon-theme.json"
     }
   ]
 }

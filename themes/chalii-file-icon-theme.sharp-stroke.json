@@ -1,0 +1,27 @@
+{
+  "$schema": "vscode://schemas/icon-theme",
+  "iconDefinitions": {},
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "rootFolder": "_folder",
+  "rootFolderExpanded": "_folder_open",
+  "fileExtensions": {},
+  "fileNames": {},
+  "languageIds": {},
+  "folderNames": {},
+  "folderNamesExpanded": {},
+  "light": {
+    "file": "_file_light",
+    "folder": "_folder_light",
+    "folderExpanded": "_folder_open_light",
+    "rootFolder": "_folder_light",
+    "rootFolderExpanded": "_folder_open_light",
+    "fileExtensions": {},
+    "fileNames": {},
+    "languageIds": {},
+    "folderNames": {},
+    "folderNamesExpanded": {}
+  },
+  "hidesExplorerArrows": false
+}

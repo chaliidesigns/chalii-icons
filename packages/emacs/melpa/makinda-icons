@@ -1,5 +1,0 @@
-(makinda-icons
-  :fetcher github
-  :repo "chaliidesigns/chalii-icons"
-  :files ("packages/emacs/makinda-icons.el")
-  :commit "HEAD")

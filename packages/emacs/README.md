@@ -1,13 +1,13 @@
-# Makinda Icons for Emacs
+# Chalii Icons for Emacs
 
 File-icon overlay for [`nerd-icons.el`][nerd-icons], using the same icon
-manifest as the [Makinda Icons VS Code extension][vscode], the
+manifest as the [Chalii Icons VS Code extension][vscode], the
 [JetBrains plugin](../jetbrains/README.md), and the
 [Neovim plugin](../nvim/README.md).
 
 Like the Neovim port, Emacs in a terminal can only render Nerd Font glyphs
-(not the original SVGs). This package maps each Makinda file type
-to the closest Nerd Font codepoint plus a color from the Makinda palette.
+(not the original SVGs). This package maps each Chalii file type
+to the closest Nerd Font codepoint plus a color from the Chalii palette.
 
 ## Requirements
 
@@ -23,33 +23,33 @@ straight from the monorepo checkout:
 ### use-package + straight.el
 
 ```elisp
-(use-package makinda-icons
+(use-package chalii-icons
   :straight (:host github
              :repo "chaliidesigns/chalii-icons"
-             :files ("packages/emacs/makinda-icons.el"))
+             :files ("packages/emacs/chalii-icons.el"))
   :after nerd-icons
-  :config (makinda-icons-setup))
+  :config (chalii-icons-setup))
 ```
 
 ### Manual
 
-Copy [`makinda-icons.el`](makinda-icons.el) onto your `load-path`, then:
+Copy [`chalii-icons.el`](chalii-icons.el) onto your `load-path`, then:
 
 ```elisp
 (require 'nerd-icons)
-(require 'makinda-icons)
-(makinda-icons-setup)
+(require 'chalii-icons)
+(chalii-icons-setup)
 ```
 
 ## API
 
 ```elisp
 ;; Apply the overlay (idempotent). Call after nerd-icons is loaded.
-(makinda-icons-setup)
+(chalii-icons-setup)
 
-;; Get the glyph for a canonical Makinda icon name.
-(makinda-icons-icon-for-name "markdown")
-;; => "" (propertized with the Makinda fg face)
+;; Get the glyph for a canonical Chalii icon name.
+(chalii-icons-icon-for-name "markdown")
+;; => "" (propertized with the Chalii fg face)
 ```
 
 ## What's overridden
@@ -70,7 +70,7 @@ or glyph table.
 ## Limitations
 
 - **Monochrome glyphs.** Same constraint as the Neovim port — Emacs renders
-  the Nerd Font codepoint, not the SVG. Makinda colors apply via face props.
+  the Nerd Font codepoint, not the SVG. Chalii colors apply via face props.
 - **No directory icons.** `nerd-icons.el` doesn't theme directories the way
   it does files; configure `treemacs` / `dired-sidebar` separately.
 - **`all-the-icons.el` not yet supported.** v1 targets `nerd-icons.el` only,
@@ -79,8 +79,8 @@ or glyph table.
 
 ## License
 
-[MIT](../../LICENSE.md) — same as the rest of the Makinda Icons monorepo.
+[MIT](../../LICENSE.md) — same as the rest of the Chalii Icons monorepo.
 
 [nerd-icons]: https://github.com/rainforest-cafe/nerd-icons.el
-[vscode]: https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons
+[vscode]: https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons
 [nerdfont]: https://www.nerdfonts.com

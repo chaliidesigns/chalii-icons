@@ -1,1 +1,1 @@
-rootProject.name = "makinda-icons-jetbrains"
+rootProject.name = "chalii-icons-jetbrains"

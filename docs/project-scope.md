@@ -1,4 +1,4 @@
-# Project scope — makinda-icons
+# Project scope — chalii-icons
 
 > Last updated: 2026-05-06
 
@@ -6,14 +6,14 @@ This document defines **what we're building, why, and how we work on it**. It is
 
 ## 1. What this project is
 
-`makinda-icons` is a single VS Code extension that ships **multiple icon themes** by Makinda Jackson.
+`chalii-icons` is a single VS Code extension that ships **multiple icon themes** by Makinda Jackson.
 
 Each upstream drawing style becomes a separate, user-selectable theme. Each style covers **both** kinds of VS Code iconography:
 
 - a **file icon theme** (Explorer, tabs, file pickers)
 - a **product icon theme** (activity bar, status bar, debug controls, etc.)
 
-So a user can, for example, pick _Makinda Icons (Solid)_ for files and _Makinda Product Icons (Solid)_ for UI — or mix styles between the two.
+So a user can, for example, pick _Chalii Icons (Solid)_ for files and _Chalii Product Icons (Solid)_ for UI — or mix styles between the two.
 
 ## 2. Why
 
@@ -60,7 +60,7 @@ The upstream icon library ships these styles (folder layout under `25,000+ SVG i
 ### Phasing rationale
 
 1. **Solid first.** The filled variant is the most legible at 16×16 in the Explorer and gives the strongest visual identity. Ship and iterate on this before duplicating effort across styles.
-2. **Duotone next.** Already partially scaffolded; the most distinctive Makinda look.
+2. **Duotone next.** Already partially scaffolded; the most distinctive Chalii look.
 3. **Twotone + Stroke** together (they share a stroke-based design language).
 4. **Bulk + Sharp variants** last (smaller audience).
 
@@ -74,14 +74,14 @@ A style is "shipped" when:
 
 | Where                   | Convention                                                |
 | ----------------------- | --------------------------------------------------------- |
-| Repo / extension id     | `makindajack.makinda-icons`                               |
-| File icon theme id      | `makinda-file-icons-<style>` (e.g. `…-solid`)             |
-| Product icon theme id   | `makinda-product-icons-<style>`                           |
-| Display label (file)    | `Makinda Icons (Solid)` / `(Duotone)` / …                 |
-| Display label (product) | `Makinda Product Icons (Solid)` / …                       |
+| Repo / extension id     | `makindajack.chalii-icons`                               |
+| File icon theme id      | `chalii-file-icons-<style>` (e.g. `…-solid`)             |
+| Product icon theme id   | `chalii-product-icons-<style>`                           |
+| Display label (file)    | `Chalii Icons (Solid)` / `(Duotone)` / …                 |
+| Display label (product) | `Chalii Product Icons (Solid)` / …                       |
 | Manifest icon name      | kebab-case, no style suffix (`folder-code`, `git-branch`) |
 | On-disk SVG path        | `icons/<style>/file-icons/{dark,light}/<name>.svg`        |
-| Generated theme JSON    | `themes/makinda-file-icon-theme.<style>.json`             |
+| Generated theme JSON    | `themes/chalii-file-icon-theme.<style>.json`             |
 
 ## 6. Architecture
 
@@ -133,13 +133,13 @@ Before publishing a style:
 ## 9. Licensing
 
 - Code (manifest, build, theme JSONs): owned by Makinda Jackson — license TBD before v1.
-- Icon assets: derived from the upstream icon library under Makinda's personal license. Forks must obtain their own license to the upstream library. See [LICENSE.md](../../LICENSE.md).
+- Icon assets: derived from the upstream icon library under Chalii's personal license. Forks must obtain their own license to the upstream library. See [LICENSE.md](../../LICENSE.md).
 - Brand-mark icons (GitHub, Figma, etc.) used under nominative fair use to identify file types.
 
 ## 10. Open questions
 
 - Should Solid be the default theme on first activation? (Leaning yes.)
-- Do we want a "Makinda Icons (Auto)" entry that picks Stroke for Light themes and Solid for Dark? (Possible via `light` overrides in the theme JSON, but increases maintenance.)
+- Do we want a "Chalii Icons (Auto)" entry that picks Stroke for Light themes and Solid for Dark? (Possible via `light` overrides in the theme JSON, but increases maintenance.)
 - Is there a need for a CLI to sync the codicon ID list against upstream? (See `docs/product-icons/product-icons-list.md` §"Keeping this list in sync".)
 
 ## 11. Definition of done (v0.1.0)
@@ -149,4 +149,4 @@ Before publishing a style:
 - [ ] Solid (filled) variant ships with full manifest coverage.
 - [ ] At least one second style variant in active development.
 - [ ] Marketplace listing draft (icon, description, screenshots).
-- [ ] Real-world test on Makinda's daily-driver workspace for a week.
+- [ ] Real-world test on Chalii's daily-driver workspace for a week.

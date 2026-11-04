@@ -1,0 +1,21 @@
+{
+  "$schema": "vscode://schemas/product-icon-theme",
+  "fonts": [
+    {
+      "id": "chalii-product-icons-bulk",
+      "src": [
+        {
+          "path": "./fonts/chalii-product-icons-bulk.woff2",
+          "format": "woff2"
+        },
+        {
+          "path": "./fonts/chalii-product-icons-bulk.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {}
+}

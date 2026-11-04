@@ -1,11 +1,11 @@
-// Builds makinda-icons assets. Iterates every enabled style in
+// Builds chalii-icons assets. Iterates every enabled style in
 // scripts/styles.mjs, applies the manifest from scripts/manifest.mjs against
 // that style's source root, copies the SVGs, and emits per-style theme JSONs.
 //
 //   • icons/<style>/file-icons/<name>.svg
 //   • icons/<style>/product-icons/<id>.svg
-//   • themes/makinda-file-icon-theme.<style>.json
-//   • themes/makinda-product-icon-theme.<style>.json
+//   • themes/chalii-file-icon-theme.<style>.json
+//   • themes/chalii-product-icon-theme.<style>.json
 //
 // Override the upstream library source root with ICONS_SRC_ROOT env var.
 // Pass --style=<id> (repeatable) to limit the build to specific styles.
@@ -60,8 +60,8 @@ async function buildStyle(style) {
     // Brand fills used when generating light/dark variants of file icons.
     // VS Code never applies CSS `color` to file icons, so we ship two physical
     // SVG copies and let the icon-theme JSON's `light` block swap them.
-    const DARK_FILL = "#e7e8ea";   // makinda-themes dark fg.default
-    const LIGHT_FILL = "#1e2022";  // makinda-themes light fg.default
+    const DARK_FILL = "#e7e8ea";   // chalii-themes dark fg.default
+    const LIGHT_FILL = "#1e2022";  // chalii-themes light fg.default
 
     function copyIcon(srcRel, destPath, opts = {}) {
         const srcAbs = resolveSrc(style, srcRel);
@@ -175,7 +175,7 @@ async function buildStyle(style) {
         hidesExplorerArrows: false,
     };
     fs.writeFileSync(
-        path.join(themesDir, `makinda-file-icon-theme.${style.id}.json`),
+        path.join(themesDir, `chalii-file-icon-theme.${style.id}.json`),
         JSON.stringify(fileTheme, null, 2) + "\n",
     );
 
@@ -198,7 +198,7 @@ async function buildStyle(style) {
 
     const fontsDir = path.join(themesDir, "fonts");
     fs.mkdirSync(fontsDir, { recursive: true });
-    const fontName = `makinda-product-icons-${style.id}`;
+    const fontName = `chalii-product-icons-${style.id}`;
 
     await generateFonts({
         name: fontName,
@@ -236,14 +236,14 @@ async function buildStyle(style) {
         iconDefinitions: productDefs,
     };
     fs.writeFileSync(
-        path.join(themesDir, `makinda-product-icon-theme.${style.id}.json`),
+        path.join(themesDir, `chalii-product-icon-theme.${style.id}.json`),
         JSON.stringify(productTheme, null, 2) + "\n",
     );
 
     return { copied, missing };
 }
 
-console.log(`makinda-icons build`);
+console.log(`chalii-icons build`);
 console.log(`  ICONS_SRC_ROOT: ${ICONS_SRC_ROOT}`);
 
 let failed = false;

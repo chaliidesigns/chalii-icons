@@ -1,4 +1,4 @@
-# Makinda Icons — JetBrains plugin
+# Chalii Icons — JetBrains plugin
 
 File icons for the IntelliJ Platform family.
 
@@ -16,7 +16,7 @@ expose a stable public API for those.
 All icon data lives in [`scripts/manifest.mjs`](../../scripts/manifest.mjs) at
 the repo root. The emitter [`scripts/build-jetbrains.mjs`](../../scripts/build-jetbrains.mjs)
 reads that manifest and regenerates everything under `src/main/resources/icons/`
-and the `MakindaFileIconProvider` Kotlin class. **Never edit those files
+and the `ChaliiFileIconProvider` Kotlin class. **Never edit those files
 directly** — they are overwritten on every build.
 
 ## Build

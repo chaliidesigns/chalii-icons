@@ -1,6 +1,6 @@
 # Product icons list (codicons)
 
-A working checklist of every product icon the **makinda-product-icons** theme will redesign. Codicon IDs match the canonical [`@vscode/codicons` mapping](https://github.com/microsoft/vscode-codicons/blob/main/src/template/mapping.json) — keep them stable so VS Code can substitute icons correctly.
+A working checklist of every product icon the **chalii-product-icons** theme will redesign. Codicon IDs match the canonical [`@vscode/codicons` mapping](https://github.com/microsoft/vscode-codicons/blob/main/src/template/mapping.json) — keep them stable so VS Code can substitute icons correctly.
 
 > The list below covers the well-known codicons grouped by purpose. Before each release, regenerate against the upstream `mapping.json` to catch new IDs added by VS Code.
 

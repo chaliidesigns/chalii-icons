@@ -40,7 +40,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: makinda-icons-jetbrains
+          name: chalii-icons-jetbrains
           path: packages/jetbrains/build/distributions/*.zip
 
   publish:

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageManifest xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+    <Symbols>
+        <String Name="Resources" Value="/ChaliiIcons;Component/Resources" />
+        <Guid Name="ChaliiIconsGuid" Value="{8a4f1d6e-2c7b-4b9f-9b3a-3e5a1c0d6f12}" />
+    </Symbols>
+    <Images>
+
+    </Images>
+    <ImageFiles>
+
+    </ImageFiles>
+</ImageManifest>

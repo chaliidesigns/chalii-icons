@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Mirror packages/sublime/Makinda Icons/ to the standalone Package Control repo
+# Mirror packages/sublime/Chalii Icons/ to the standalone Package Control repo
 # at github.com/chaliidesigns/chalii-icons-sublime, then tag the new version.
 #
 # Why a separate repo: Package Control's channel format only supports
@@ -19,8 +19,8 @@ if [[ -z "$VERSION" ]]; then
 fi
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SRC="$REPO_ROOT/packages/sublime/Makinda Icons"
-MIRROR_DIR="$(mktemp -d -t makinda-icons-sublime.XXXXXX)"
+SRC="$REPO_ROOT/packages/sublime/Chalii Icons"
+MIRROR_DIR="$(mktemp -d -t chalii-icons-sublime.XXXXXX)"
 MIRROR_REMOTE="git@github.com:chaliidesigns/chalii-icons-sublime.git"
 
 echo "→ syncing Sublime mirror to v$VERSION"
@@ -49,7 +49,7 @@ if git diff --cached --quiet; then
 else
     git commit -m "Sync v$VERSION
 
-Mirror of packages/sublime/Makinda Icons/ from
+Mirror of packages/sublime/Chalii Icons/ from
 https://github.com/chaliidesigns/chalii-icons at tag v$VERSION."
 fi
 

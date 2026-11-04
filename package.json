@@ -1,6 +1,6 @@
 {
-  "name": "makinda-icons",
-  "displayName": "Makinda Icons",
+  "name": "chalii-icons",
+  "displayName": "Chalii Icons",
   "description": "Multi-style icon themes for VS Code by Makinda Jackson. File icons + product icons.",
   "version": "1.2.1",
   "publisher": "makindajack",
@@ -34,76 +34,76 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "makinda-file-icons-solid",
-        "label": "Makinda Icons (Solid)",
-        "path": "./themes/makinda-file-icon-theme.solid.json"
+        "id": "chalii-file-icons-solid",
+        "label": "Chalii Icons (Solid)",
+        "path": "./themes/chalii-file-icon-theme.solid.json"
       },
       {
-        "id": "makinda-file-icons-duotone",
-        "label": "Makinda Icons (Duotone)",
-        "path": "./themes/makinda-file-icon-theme.duotone.json"
+        "id": "chalii-file-icons-duotone",
+        "label": "Chalii Icons (Duotone)",
+        "path": "./themes/chalii-file-icon-theme.duotone.json"
       },
       {
-        "id": "makinda-file-icons-twotone",
-        "label": "Makinda Icons (Twotone)",
-        "path": "./themes/makinda-file-icon-theme.twotone.json"
+        "id": "chalii-file-icons-twotone",
+        "label": "Chalii Icons (Twotone)",
+        "path": "./themes/chalii-file-icon-theme.twotone.json"
       },
       {
-        "id": "makinda-file-icons-stroke",
-        "label": "Makinda Icons (Stroke)",
-        "path": "./themes/makinda-file-icon-theme.stroke.json"
+        "id": "chalii-file-icons-stroke",
+        "label": "Chalii Icons (Stroke)",
+        "path": "./themes/chalii-file-icon-theme.stroke.json"
       },
       {
-        "id": "makinda-file-icons-bulk",
-        "label": "Makinda Icons (Bulk)",
-        "path": "./themes/makinda-file-icon-theme.bulk.json"
+        "id": "chalii-file-icons-bulk",
+        "label": "Chalii Icons (Bulk)",
+        "path": "./themes/chalii-file-icon-theme.bulk.json"
       },
       {
-        "id": "makinda-file-icons-sharp-solid",
-        "label": "Makinda Icons (Sharp Solid)",
-        "path": "./themes/makinda-file-icon-theme.sharp-solid.json"
+        "id": "chalii-file-icons-sharp-solid",
+        "label": "Chalii Icons (Sharp Solid)",
+        "path": "./themes/chalii-file-icon-theme.sharp-solid.json"
       },
       {
-        "id": "makinda-file-icons-sharp-stroke",
-        "label": "Makinda Icons (Sharp Stroke)",
-        "path": "./themes/makinda-file-icon-theme.sharp-stroke.json"
+        "id": "chalii-file-icons-sharp-stroke",
+        "label": "Chalii Icons (Sharp Stroke)",
+        "path": "./themes/chalii-file-icon-theme.sharp-stroke.json"
       }
     ],
     "productIconThemes": [
       {
-        "id": "makinda-product-icons-solid",
-        "label": "Makinda Product Icons (Solid)",
-        "path": "./themes/makinda-product-icon-theme.solid.json"
+        "id": "chalii-product-icons-solid",
+        "label": "Chalii Product Icons (Solid)",
+        "path": "./themes/chalii-product-icon-theme.solid.json"
       },
       {
-        "id": "makinda-product-icons-duotone",
-        "label": "Makinda Product Icons (Duotone)",
-        "path": "./themes/makinda-product-icon-theme.duotone.json"
+        "id": "chalii-product-icons-duotone",
+        "label": "Chalii Product Icons (Duotone)",
+        "path": "./themes/chalii-product-icon-theme.duotone.json"
       },
       {
-        "id": "makinda-product-icons-twotone",
-        "label": "Makinda Product Icons (Twotone)",
-        "path": "./themes/makinda-product-icon-theme.twotone.json"
+        "id": "chalii-product-icons-twotone",
+        "label": "Chalii Product Icons (Twotone)",
+        "path": "./themes/chalii-product-icon-theme.twotone.json"
       },
       {
-        "id": "makinda-product-icons-stroke",
-        "label": "Makinda Product Icons (Stroke)",
-        "path": "./themes/makinda-product-icon-theme.stroke.json"
+        "id": "chalii-product-icons-stroke",
+        "label": "Chalii Product Icons (Stroke)",
+        "path": "./themes/chalii-product-icon-theme.stroke.json"
       },
       {
-        "id": "makinda-product-icons-bulk",
-        "label": "Makinda Product Icons (Bulk)",
-        "path": "./themes/makinda-product-icon-theme.bulk.json"
+        "id": "chalii-product-icons-bulk",
+        "label": "Chalii Product Icons (Bulk)",
+        "path": "./themes/chalii-product-icon-theme.bulk.json"
       },
       {
-        "id": "makinda-product-icons-sharp-solid",
-        "label": "Makinda Product Icons (Sharp Solid)",
-        "path": "./themes/makinda-product-icon-theme.sharp-solid.json"
+        "id": "chalii-product-icons-sharp-solid",
+        "label": "Chalii Product Icons (Sharp Solid)",
+        "path": "./themes/chalii-product-icon-theme.sharp-solid.json"
       },
       {
-        "id": "makinda-product-icons-sharp-stroke",
-        "label": "Makinda Product Icons (Sharp Stroke)",
-        "path": "./themes/makinda-product-icon-theme.sharp-stroke.json"
+        "id": "chalii-product-icons-sharp-stroke",
+        "label": "Chalii Product Icons (Sharp Stroke)",
+        "path": "./themes/chalii-product-icon-theme.sharp-stroke.json"
       }
     ]
   },

@@ -1,4 +1,4 @@
-// Makinda Icons — JetBrains plugin build
+// Chalii Icons — JetBrains plugin build
 // Uses the new IntelliJ Platform Gradle Plugin (2.x).
 import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
 
@@ -7,7 +7,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.1.0"
 }
 
-group = "com.makinda.icons"
+group = "com.chalii.icons"
 version = providers.gradleProperty("pluginVersion").get()
 
 repositories {

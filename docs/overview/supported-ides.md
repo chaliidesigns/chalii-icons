@@ -1,6 +1,6 @@
 # Supported IDEs
 
-Makinda Icons is a **VS Code icon theme extension**. It works in any editor that implements the VS Code extension API and honours the `iconThemes` and `productIconThemes` contribution points.
+Chalii Icons is a **VS Code icon theme extension**. It works in any editor that implements the VS Code extension API and honours the `iconThemes` and `productIconThemes` contribution points.
 
 In practice that means **every editor in the VS Code family** — the original Microsoft build plus all the popular forks and AI-first derivatives.
 
@@ -8,8 +8,8 @@ In practice that means **every editor in the VS Code family** — the original M
 
 | Editor                                 | File icons | Product icons | Install method                                                                          |
 | -------------------------------------- | :--------: | :-----------: | --------------------------------------------------------------------------------------- |
-| **Visual Studio Code**                 |     ✅     |      ✅       | VS Code Marketplace · `code --install-extension makindajack.makinda-icons`              |
-| **VS Code Insiders**                   |     ✅     |      ✅       | VS Code Marketplace · `code-insiders --install-extension makindajack.makinda-icons`     |
+| **Visual Studio Code**                 |     ✅     |      ✅       | VS Code Marketplace · `code --install-extension makindajack.chalii-icons`              |
+| **VS Code Insiders**                   |     ✅     |      ✅       | VS Code Marketplace · `code-insiders --install-extension makindajack.chalii-icons`     |
 | **VSCodium**                           |     ✅     |      ✅       | [Open VSX Registry](https://open-vsx.org) · `codium --install-extension …` · or `.vsix` |
 | **Cursor**                             |     ✅     |      ✅       | Built-in Extensions view (uses Open VSX) · or `cursor --install-extension …`            |
 | **Windsurf** (Codeium)                 |     ✅     |      ✅       | Built-in Extensions view · or `windsurf --install-extension …`                          |
@@ -30,14 +30,14 @@ In practice that means **every editor in the VS Code family** — the original M
 > - [packages/jetbrains/README.md](../../packages/jetbrains/README.md) — IntelliJ IDEA, WebStorm, PyCharm, GoLand, Rider, RubyMine, CLion, PhpStorm, DataGrip, Android Studio
 > - [packages/nvim/README.md](../../packages/nvim/README.md) — Neovim via `nvim-web-devicons` (Nerd Font glyphs)
 > - [packages/emacs/README.md](../../packages/emacs/README.md) — Emacs via `nerd-icons.el`
-> - [packages/sublime/Makinda Icons/README.md](../../packages/sublime/Makinda%20Icons/README.md) — Sublime Text 3+
-> - [packages/visualstudio/MakindaIcons/README.md](../../packages/visualstudio/MakindaIcons/README.md) — Visual Studio 2022 (Windows)
+> - [packages/sublime/Chalii Icons/README.md](../../packages/sublime/Chalii%20Icons/README.md) — Sublime Text 3+
+> - [packages/visualstudio/ChaliiIcons/README.md](../../packages/visualstudio/ChaliiIcons/README.md) — Visual Studio 2022 (Windows)
 >
 > **Not planned:** Xcode, Fleet, Atom — no public icon-theme API.
 
 ## Marketplaces
 
-Makinda Icons is published to:
+Chalii Icons is published to:
 
 - **[VS Code Marketplace](https://marketplace.visualstudio.com)** — used by Visual Studio Code (Stable + Insiders) and Codespaces.
 - **[Open VSX Registry](https://open-vsx.org)** — used by VSCodium, Cursor, Windsurf, Trae, Gitpod, Theia, code-server, and most other forks that ship without Microsoft's marketplace.
@@ -48,22 +48,22 @@ If your editor only sees one of the two registries, install from the one it supp
 
 If a registry isn't reachable, every listed editor accepts a local `.vsix`:
 
-1. Download `makinda-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/chalii-icons/releases) page.
+1. Download `chalii-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/chalii-icons/releases) page.
 2. Open the editor's **Extensions** view → `…` menu → **Install from VSIX…**
 3. Select the file. Reload if prompted.
 
 CLI alternative — works in VS Code, VSCodium, Cursor, Windsurf, Trae, code-server:
 
 ```sh
-<editor-cli> --install-extension /path/to/makinda-icons-<version>.vsix
+<editor-cli> --install-extension /path/to/chalii-icons-<version>.vsix
 ```
 
 ## Activate the themes
 
 After install, in any supported editor:
 
-1. **File icons** — `Cmd/Ctrl + Shift + P` → **Preferences: File Icon Theme** → select **Makinda Icons (Dualtone)**.
-2. **Product icons** — `Cmd/Ctrl + Shift + P` → **Preferences: Product Icon Theme** → select **Makinda Product Icons (Dualtone)**.
+1. **File icons** — `Cmd/Ctrl + Shift + P` → **Preferences: File Icon Theme** → select **Chalii Icons (Dualtone)**.
+2. **Product icons** — `Cmd/Ctrl + Shift + P` → **Preferences: Product Icon Theme** → select **Chalii Product Icons (Dualtone)**.
 
 Both can be activated independently; they don't depend on each other.
 
@@ -71,7 +71,7 @@ Both can be activated independently; they don't depend on each other.
 
 ### Cursor / Windsurf / Trae
 
-These ship a curated Open VSX index by default. If Makinda Icons doesn't appear in search, the publisher feed may not have been mirrored yet — fall back to the `.vsix` install above. Activation paths and command IDs are identical to upstream VS Code.
+These ship a curated Open VSX index by default. If Chalii Icons doesn't appear in search, the publisher feed may not have been mirrored yet — fall back to the `.vsix` install above. Activation paths and command IDs are identical to upstream VS Code.
 
 ### VSCodium / code-server / Gitpod
 
@@ -85,7 +85,7 @@ then install via the Extensions view.
 
 ### Web editors (vscode.dev, github.dev, Codespaces)
 
-Web editors only render extensions whose assets resolve over HTTPS — Makinda Icons ships pure SVGs with no native code, so it works without a remote workspace.
+Web editors only render extensions whose assets resolve over HTTPS — Chalii Icons ships pure SVGs with no native code, so it works without a remote workspace.
 
 ### Zed
 
@@ -93,7 +93,7 @@ Zed's VS Code extension support is still evolving. File icons render correctly i
 
 ## Reporting compatibility issues
 
-If Makinda Icons looks wrong in a listed editor, please open an issue with:
+If Chalii Icons looks wrong in a listed editor, please open an issue with:
 
 - Editor name and version
 - Operating system

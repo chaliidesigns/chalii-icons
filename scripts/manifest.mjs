@@ -1,5 +1,5 @@
 // Single source of truth that maps upstream (Rounded/Duotone) sources to
-// makinda icon names. The build script (./build.mjs) reads this manifest,
+// chalii icon names. The build script (./build.mjs) reads this manifest,
 // copies the SVGs into the icons/ folders, and emits both theme JSONs.
 //
 // To add or replace an icon: edit this file and re-run `npm run build`.

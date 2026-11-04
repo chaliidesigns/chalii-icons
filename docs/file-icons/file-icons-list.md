@@ -1,6 +1,6 @@
 # File icons list
 
-A working checklist of every file/folder icon the **makinda-file-icons** theme intends to ship. Tick (`[x]`) when the SVG lands in `icons/file-icons/`.
+A working checklist of every file/folder icon the **chalii-file-icons** theme intends to ship. Tick (`[x]`) when the SVG lands in `icons/file-icons/`.
 
 > Filenames in this list are the canonical icon names — the `iconDefinitions` keys in the theme JSON will use the same names without the `.svg`.
 

@@ -1,4 +1,4 @@
-// Makinda Icons — visual QA contact sheet
+// Chalii Icons — visual QA contact sheet
 //
 // Composes every file-icon SVG from `icons/<style>/file-icons/dark/` into a
 // single grid-shaped SVG, then rasterizes it to PNG. Useful for:
@@ -55,7 +55,7 @@ const height = PAD * 2 + rows * TILE + 60; // header band
 
 const titleBand = `
     <rect x="0" y="0" width="${width}" height="60" fill="${BG}"/>
-    <text x="${PAD}" y="36" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="600" fill="${FG}">Makinda Icons — ${style.label}</text>
+    <text x="${PAD}" y="36" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="600" fill="${FG}">Chalii Icons — ${style.label}</text>
     <text x="${width - PAD}" y="36" text-anchor="end" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" fill="${MUTED}">${files.length} icons</text>
 `;
 
@@ -105,7 +105,7 @@ const png = new Resvg(composite, {
 }).render().asPng();
 fs.writeFileSync(pngOut, png);
 
-console.log("makinda-icons (contact-sheet) build");
+console.log("chalii-icons (contact-sheet) build");
 console.log(`  style:   ${style.id}`);
 console.log(`  icons:   ${files.length}`);
 console.log(`  layout:  ${COLS} cols × ${rows} rows @ ${TILE}px tile`);

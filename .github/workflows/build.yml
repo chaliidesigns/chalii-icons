@@ -25,16 +25,16 @@ jobs:
 
       - name: Validate generated theme JSON
         run: |
-          node -e "JSON.parse(require('fs').readFileSync('themes/makinda-file-icon-theme.solid.json','utf8'))"
-          node -e "JSON.parse(require('fs').readFileSync('themes/makinda-product-icon-theme.solid.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('themes/chalii-file-icon-theme.solid.json','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('themes/chalii-product-icon-theme.solid.json','utf8'))"
 
       - name: Package extension
-        run: npx --yes @vscode/vsce package --no-dependencies --out makinda-icons.ci.vsix
+        run: npx --yes @vscode/vsce package --no-dependencies --out chalii-icons.ci.vsix
 
       - uses: actions/upload-artifact@v4
         with:
           name: vsix
-          path: makinda-icons.ci.vsix
+          path: chalii-icons.ci.vsix
           if-no-files-found: error
 
   publish:

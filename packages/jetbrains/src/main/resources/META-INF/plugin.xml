@@ -1,11 +1,11 @@
 <idea-plugin>
-    <id>com.makinda.icons</id>
-    <name>Makinda Icons</name>
+    <id>com.chalii.icons</id>
+    <name>Chalii Icons</name>
     <vendor email="hello@makinda.dev" url="https://github.com/chaliidesigns/chalii-icons">Makinda Jackson</vendor>
 
     <description><![CDATA[
         Beautiful, consistent file icons for the IntelliJ Platform — the same icon set
-        as the <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons">Makinda Icons VS Code extension</a>.<br/><br/>
+        as the <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons">Chalii Icons VS Code extension</a>.<br/><br/>
         <b>102 file icons</b> — Solid style, auto-adapts to light and dark IDE themes.<br/><br/>
         Covers: JavaScript · TypeScript · Python · Rust · Go · Java · PHP · C/C++ ·
         Ruby · Vue · Svelte · Astro · Dart · SQL · TOML · Shell scripts (bash, zsh, fish,
@@ -37,6 +37,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileIconProvider implementation="com.makinda.icons.MakindaFileIconProvider"/>
+        <fileIconProvider implementation="com.chalii.icons.ChaliiFileIconProvider"/>
     </extensions>
 </idea-plugin>

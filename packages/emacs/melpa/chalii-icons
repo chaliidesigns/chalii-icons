@@ -1,0 +1,5 @@
+(chalii-icons
+  :fetcher github
+  :repo "chaliidesigns/chalii-icons"
+  :files ("packages/emacs/chalii-icons.el")
+  :commit "HEAD")

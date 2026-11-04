@@ -1,29 +1,29 @@
 <h1 align="center">
   <br>
-  <img src="images/icon-dark.png" alt="Makinda Icons" width="128">
+  <img src="images/icon-dark.png" alt="Chalii Icons" width="128">
   <br>
-  Makinda Icons
+  Chalii Icons
   <br>
 </h1>
 
-<h4 align="center">Multi-style icon themes for VS Code and the wider VS Code family — tuned for the Makinda brand.</h4>
+<h4 align="center">Multi-style icon themes for VS Code and the wider VS Code family — tuned for the Chalii brand.</h4>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons">
-    <img alt="Version" src="https://vsmarketplacebadges.dev/version-short/makindajack.makinda-icons.svg?style=for-the-badge&labelColor=0e0e0f&color=ff6b0d&label=version">
+  <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons">
+    <img alt="Version" src="https://vsmarketplacebadges.dev/version-short/makindajack.chalii-icons.svg?style=for-the-badge&labelColor=0e0e0f&color=ff6b0d&label=version">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons">
-    <img alt="Installs" src="https://vsmarketplacebadges.dev/installs-short/makindajack.makinda-icons.svg?style=for-the-badge&labelColor=0e0e0f&color=ff6b0d&label=installs">
+  <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons">
+    <img alt="Installs" src="https://vsmarketplacebadges.dev/installs-short/makindajack.chalii-icons.svg?style=for-the-badge&labelColor=0e0e0f&color=ff6b0d&label=installs">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-icons">
-    <img alt="Rating" src="https://vsmarketplacebadges.dev/rating-short/makindajack.makinda-icons.svg?style=for-the-badge&labelColor=0e0e0f&color=ff6b0d&label=rating">
+  <a href="https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-icons">
+    <img alt="Rating" src="https://vsmarketplacebadges.dev/rating-short/makindajack.chalii-icons.svg?style=for-the-badge&labelColor=0e0e0f&color=ff6b0d&label=rating">
   </a>
 </p>
 
 <p align="center">
   <a href="#install">Install</a> •
   <a href="#activate">Activate</a> •
-  <a href="#pair-with-makinda-themes">Pair with Makinda Themes</a> •
+  <a href="#pair-with-chalii-themes">Pair with Chalii Themes</a> •
   <a href="#troubleshooting">Troubleshooting</a> •
   <a href="#license">License</a>
 </p>
@@ -32,8 +32,8 @@
 
 This extension ships **two** independent themes you can mix and match:
 
-- **`Makinda Icons (Solid)`** — file & folder icons in the Explorer, tabs, breadcrumbs, Quick Open.
-- **`Makinda Product Icons (Solid)`** — UI icons in the Activity Bar, status bar, gutters, and panels (84 codicon overrides).
+- **`Chalii Icons (Solid)`** — file & folder icons in the Explorer, tabs, breadcrumbs, Quick Open.
+- **`Chalii Product Icons (Solid)`** — UI icons in the Activity Bar, status bar, gutters, and panels (84 codicon overrides).
 
 > Currently shipping the **Solid** style. Duotone, Twotone, Stroke, Bulk, and Sharp variants are on the roadmap.
 
@@ -48,17 +48,17 @@ Pick the section that matches your editor.
 **From the Marketplace UI**
 
 1. Open **Extensions** (`Cmd/Ctrl + Shift + X`).
-2. Search for `Makinda Icons`.
+2. Search for `Chalii Icons`.
 3. Click **Install**.
 
 **From the command line**
 
 ```sh
 # Stable
-code --install-extension makindajack.makinda-icons
+code --install-extension makindajack.chalii-icons
 
 # Insiders
-code-insiders --install-extension makindajack.makinda-icons
+code-insiders --install-extension makindajack.chalii-icons
 ```
 
 In Codespaces and `vscode.dev` / `github.dev`, install the same way as desktop VS Code — search and install from the in-browser Extensions view.
@@ -66,30 +66,30 @@ In Codespaces and `vscode.dev` / `github.dev`, install the same way as desktop V
 ### Cursor
 
 1. Open **Extensions** in the sidebar.
-2. Search for `Makinda Icons`.
+2. Search for `Chalii Icons`.
 3. Click **Install**. (Cursor pulls from Open VSX; the listing is mirrored automatically.)
 
 CLI alternative:
 
 ```sh
-cursor --install-extension makindajack.makinda-icons
+cursor --install-extension makindajack.chalii-icons
 ```
 
 ### Windsurf (Codeium)
 
 1. Open the **Extensions** view.
-2. Search for `Makinda Icons` and install.
+2. Search for `Chalii Icons` and install.
 
 CLI:
 
 ```sh
-windsurf --install-extension makindajack.makinda-icons
+windsurf --install-extension makindajack.chalii-icons
 ```
 
 ### Trae (ByteDance)
 
 1. Open **Extensions**.
-2. Search for `Makinda Icons` and install.
+2. Search for `Chalii Icons` and install.
 
 If your build of Trae can't reach the registry, use the manual install below.
 
@@ -97,11 +97,11 @@ If your build of Trae can't reach the registry, use the manual install below.
 
 VSCodium uses the [Open VSX Registry](https://open-vsx.org), not the VS Code Marketplace.
 
-1. Open **Extensions**, search for `Makinda Icons`, install.
+1. Open **Extensions**, search for `Chalii Icons`, install.
 2. Or from the CLI:
 
 ```sh
-codium --install-extension makindajack.makinda-icons
+codium --install-extension makindajack.chalii-icons
 ```
 
 ### Gitpod · code-server · Eclipse Theia
@@ -110,7 +110,7 @@ These editors also use Open VSX. Install via the in-app Extensions view, or:
 
 ```sh
 # code-server
-code-server --install-extension makindajack.makinda-icons
+code-server --install-extension makindajack.chalii-icons
 ```
 
 If your code-server instance points at a different gallery, set:
@@ -125,14 +125,14 @@ before launching it.
 
 If a registry isn't reachable, every editor listed above accepts a local `.vsix`:
 
-1. Download `makinda-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/chalii-icons/releases) page.
+1. Download `chalii-icons-<version>.vsix` from the [GitHub Releases](https://github.com/chaliidesigns/chalii-icons/releases) page.
 2. In your editor: **Extensions** view → `…` menu → **Install from VSIX…** → pick the file.
 3. Reload if prompted.
 
 CLI alternative — works for VS Code, VSCodium, Cursor, Windsurf, Trae, code-server:
 
 ```sh
-<editor-cli> --install-extension /path/to/makinda-icons-<version>.vsix
+<editor-cli> --install-extension /path/to/chalii-icons-<version>.vsix
 ```
 
 ### Not yet supported
@@ -149,26 +149,26 @@ Once installed, switch each theme independently. They're separate settings — y
 
 1. Open the Command Palette: `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows / Linux).
 2. Run **Preferences: File Icon Theme**.
-3. Select **Makinda Icons (Solid)**.
+3. Select **Chalii Icons (Solid)**.
 
 Or set it directly in `settings.json`:
 
 ```jsonc
 {
-  "workbench.iconTheme": "makinda-file-icons-solid",
+  "workbench.iconTheme": "chalii-file-icons-solid",
 }
 ```
 
 ### Product icons (UI icons)
 
 1. Command Palette → **Preferences: Product Icon Theme**.
-2. Select **Makinda Product Icons (Solid)**.
+2. Select **Chalii Product Icons (Solid)**.
 
 Or in `settings.json`:
 
 ```jsonc
 {
-  "workbench.productIconTheme": "makinda-product-icons-solid",
+  "workbench.productIconTheme": "chalii-product-icons-solid",
 }
 ```
 
@@ -176,22 +176,22 @@ Or in `settings.json`:
 
 ```jsonc
 {
-  "workbench.iconTheme": "makinda-file-icons-solid",
-  "workbench.productIconTheme": "makinda-product-icons-solid",
+  "workbench.iconTheme": "chalii-file-icons-solid",
+  "workbench.productIconTheme": "chalii-product-icons-solid",
 }
 ```
 
 ---
 
-## Pair with Makinda Themes
+## Pair with Chalii Themes
 
-These icons are color-tuned to match the [Makinda Themes](https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-themes) color set:
+These icons are color-tuned to match the [Chalii Themes](https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-themes) color set:
 
 ```jsonc
 {
-  "workbench.colorTheme": "Makinda Dark",
-  "workbench.iconTheme": "makinda-file-icons-solid",
-  "workbench.productIconTheme": "makinda-product-icons-solid",
+  "workbench.colorTheme": "Chalii Dark",
+  "workbench.iconTheme": "chalii-file-icons-solid",
+  "workbench.productIconTheme": "chalii-product-icons-solid",
 }
 ```
 
@@ -200,10 +200,10 @@ Auto-switch with your OS appearance:
 ```jsonc
 {
   "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "Makinda Light",
-  "workbench.preferredDarkColorTheme": "Makinda Dark",
-  "workbench.iconTheme": "makinda-file-icons-solid",
-  "workbench.productIconTheme": "makinda-product-icons-solid",
+  "workbench.preferredLightColorTheme": "Chalii Light",
+  "workbench.preferredDarkColorTheme": "Chalii Dark",
+  "workbench.iconTheme": "chalii-file-icons-solid",
+  "workbench.productIconTheme": "chalii-product-icons-solid",
 }
 ```
 
@@ -227,7 +227,7 @@ Auto-switch with your OS appearance:
 - [Report an issue](https://github.com/chaliidesigns/chalii-icons/issues)
 - [Roadmap](https://github.com/chaliidesigns/chalii-icons/blob/main/docs/overview/roadmap.md)
 - [Contributing & build docs](https://github.com/chaliidesigns/chalii-icons/blob/main/docs/README.dev.md)
-- [Companion color theme: Makinda Themes](https://marketplace.visualstudio.com/items?itemName=makindajack.makinda-themes)
+- [Companion color theme: Chalii Themes](https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-themes)
 
 ---
 

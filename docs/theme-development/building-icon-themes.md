@@ -1,20 +1,20 @@
-# Building the makinda icon themes
+# Building the chalii icon themes
 
-This is the working plan for shipping `makinda-file-icons` and `makinda-product-icons` as a single VS Code extension.
+This is the working plan for shipping `chalii-file-icons` and `chalii-product-icons` as a single VS Code extension.
 
 ## 1. Project layout (target)
 
 ```
-makinda-icons/
+chalii-icons/
 ├── package.json                       Extension manifest
 ├── icons/
 │   ├── file-icons/                    SVG sources
 │   └── product-icons/                 SVG sources
 ├── fonts/
-│   └── makinda-product.woff           Generated codicon-replacement font
+│   └── chalii-product.woff           Generated codicon-replacement font
 ├── themes/
-│   ├── makinda-file-icon-theme.json
-│   └── makinda-product-icon-theme.json
+│   ├── chalii-file-icon-theme.json
+│   └── chalii-product-icon-theme.json
 ├── scripts/
 │   └── build-font.mjs                 SVG → WOFF pipeline
 └── docs/
@@ -45,16 +45,16 @@ makinda-icons/
 ## 4. Build pipeline
 
 1. `npm run optimize` → svgo over all icons.
-2. `npm run build:font` → fantasticon reads `icons/product-icons/` + the codicon mapping, outputs `fonts/makinda-product.woff` and a generated `themes/makinda-product-icon-theme.json`.
-3. `npm run build:file-theme` → small node script that reads `icons/file-icons/` and emits `themes/makinda-file-icon-theme.json` from a manifest.
+2. `npm run build:font` → fantasticon reads `icons/product-icons/` + the codicon mapping, outputs `fonts/chalii-product.woff` and a generated `themes/chalii-product-icon-theme.json`.
+3. `npm run build:file-theme` → small node script that reads `icons/file-icons/` and emits `themes/chalii-file-icon-theme.json` from a manifest.
 4. `vsce package` → produces `.vsix`.
 
 ## 5. Manifest (sketch)
 
 ```jsonc
 {
-  "name": "makinda-icons",
-  "displayName": "Makinda Icons",
+  "name": "chalii-icons",
+  "displayName": "Chalii Icons",
   "publisher": "makindajack",
   "version": "0.0.1",
   "engines": { "vscode": "^1.85.0" },
@@ -62,16 +62,16 @@ makinda-icons/
   "contributes": {
     "iconThemes": [
       {
-        "id": "makinda-file-icons",
-        "label": "Makinda File Icons",
-        "path": "./themes/makinda-file-icon-theme.json",
+        "id": "chalii-file-icons",
+        "label": "Chalii File Icons",
+        "path": "./themes/chalii-file-icon-theme.json",
       },
     ],
     "productIconThemes": [
       {
-        "id": "makinda-product-icons",
-        "label": "Makinda Product Icons",
-        "path": "./themes/makinda-product-icon-theme.json",
+        "id": "chalii-product-icons",
+        "label": "Chalii Product Icons",
+        "path": "./themes/chalii-product-icon-theme.json",
       },
     ],
   },
@@ -81,8 +81,8 @@ makinda-icons/
 ## 6. Testing
 
 - Open the extension folder in VS Code → press `F5` → an Extension Development Host opens.
-- `Preferences: File Icon Theme` → pick _Makinda File Icons_.
-- `Preferences: Product Icon Theme` → pick _Makinda Product Icons_.
+- `Preferences: File Icon Theme` → pick _Chalii File Icons_.
+- `Preferences: Product Icon Theme` → pick _Chalii Product Icons_.
 - Toggle dark / light / high-contrast to verify variants.
 
 ## 7. Publishing

@@ -1,19 +1,19 @@
-# makinda-icons
+# chalii-icons
 
-Multi-style icon themes for Visual Studio Code by Makinda Jackson, tuned for the Makinda brand. Covers both file/folder icons and product (UI) icons.
+Multi-style icon themes for Visual Studio Code by Makinda Jackson, tuned for the Chalii brand. Covers both file/folder icons and product (UI) icons.
 
 ## Status
 
-Phase 1: **Solid** (filled) — shipped as `Makinda Icons (Solid)` and `Makinda Product Icons (Solid)`. 124 starter icons, zero missing. Other upstream styles (Duotone, Twotone, Stroke, Bulk, Sharp Solid, Sharp Stroke) are scaffolded but disabled — see [`docs/project-scope.md`](docs/project-scope.md).
+Phase 1: **Solid** (filled) — shipped as `Chalii Icons (Solid)` and `Chalii Product Icons (Solid)`. 124 starter icons, zero missing. Other upstream styles (Duotone, Twotone, Stroke, Bulk, Sharp Solid, Sharp Stroke) are scaffolded but disabled — see [`docs/project-scope.md`](docs/project-scope.md).
 
 ## Repository structure
 
 ```
-makinda-icons/
+chalii-icons/
 ├── package.json                       Extension manifest
 ├── themes/                            Generated theme JSONs (don't hand-edit)
-│   ├── makinda-file-icon-theme.<style>.json
-│   └── makinda-product-icon-theme.<style>.json
+│   ├── chalii-file-icon-theme.<style>.json
+│   └── chalii-product-icon-theme.<style>.json
 ├── icons/
 │   └── <style>/                       SVGs copied from the upstream library per style
 │       ├── file-icons/
@@ -48,8 +48,8 @@ Then in VS Code:
 
 1. Open this folder.
 2. Press `F5` to launch the Extension Development Host.
-3. `Cmd+Shift+P → Preferences: File Icon Theme → Makinda Icons (Solid)`
-4. `Cmd+Shift+P → Preferences: Product Icon Theme → Makinda Product Icons (Solid)`
+3. `Cmd+Shift+P → Preferences: File Icon Theme → Chalii Icons (Solid)`
+4. `Cmd+Shift+P → Preferences: Product Icon Theme → Chalii Product Icons (Solid)`
 
 ## Add or change an icon
 
@@ -76,7 +76,7 @@ Edit [scripts/manifest.mjs](scripts/manifest.mjs) and re-run `npm run build`. Th
 
 ## Companion extension
 
-The matching **color theme** (Makinda Light + Makinda Dark) lives in [makinda-themes](https://github.com/chaliidesigns/chalii-themes). The two are designed to be installed together but ship separately.
+The matching **color theme** (Chalii Light + Chalii Dark) lives in [chalii-themes](https://github.com/chaliidesigns/chalii-themes). The two are designed to be installed together but ship separately.
 
 ## License
 
