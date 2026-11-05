@@ -502,6 +502,14 @@ export const folderNames = {
 // Keys are codicon IDs (https://microsoft.github.io/vscode-codicons/dist/codicon.html).
 // Any codicon not listed here falls back to the built-in default.
 
+// Simple circle states are drawn here instead of taken from the icon library, so a
+// breakpoint, an unverified breakpoint and a plain circle stay distinct in every style.
+const svg24 = (body) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">${body}</svg>`;
+const DOT = svg24('<circle cx="12" cy="12" r="8" fill="#141B34"/>');
+const DOT_EQUALS = svg24('<path fill-rule="evenodd" clip-rule="evenodd" fill="#141B34" d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16ZM8 10h8v1.6H8V10Zm0 3h8v1.6H8V13Z"/>');
+const RING = svg24('<circle cx="12" cy="12" r="7" fill="none" stroke="#141B34" stroke-width="2"/>');
+const RING_DASHED = svg24('<circle cx="12" cy="12" r="7" fill="none" stroke="#141B34" stroke-width="2" stroke-dasharray="3.2 2.2"/>');
+
 export const productIcons = [
     // Activity bar
     { id: "files", src: "Files Folders/folder-01.svg" },
@@ -691,4 +699,100 @@ export const productIcons = [
     { id: "search-stop", src: "Search/search-remove.svg" },
     { id: "zoom-in", src: "Search/zoom-in-area.svg" },
     { id: "zoom-out", src: "Search/zoom-out-area.svg" },
+
+    // ---- Wider coverage: icons VS Code shows that used to fall back to its defaults ----
+
+    // Tree and navigation
+    { id: "arrow-small-right", src: "Arrows (Round)/arrow-right-02-round.svg" },
+    { id: "arrow-small-left", src: "Arrows (Round)/arrow-left-02-round.svg" },
+    { id: "arrow-small-up", src: "Arrows (Round)/arrow-up-02-round.svg" },
+    { id: "arrow-small-down", src: "Arrows (Round)/arrow-down-02-round.svg" },
+    { id: "list-flat", src: "Edit Formatting/list-view.svg" },
+    { id: "list-tree", src: "Hierarchy/hierarchy-files.svg" },
+
+    // Debugging
+    { id: "debug-breakpoint", svg: DOT },
+    { id: "debug-breakpoint-conditional", svg: DOT_EQUALS },
+    { id: "debug-breakpoint-unverified", svg: RING_DASHED },
+    { id: "debug-breakpoint-function", src: "Mathematics/function-circle.svg" },
+    { id: "debug-stackframe", src: "Arrows (Round)/arrow-right-02-round.svg" },
+    { id: "debug-stackframe-focused", src: "Media/play.svg" },
+    { id: "debug-console", src: "Programming Language/console.svg" },
+    { id: "debug-rerun", src: "Media/repeat.svg" },
+    { id: "run-all", src: "Image Camera Video/play-list.svg" },
+    { id: "run-above", src: "Arrows (Round)/arrow-up-double-round.svg" },
+    { id: "run-below", src: "Arrows (Round)/arrow-down-double-round.svg" },
+
+    // Editor widgets and find
+    { id: "lightbulb-autofix", src: "Devices/bulb.svg" },
+    { id: "more", src: "More Menu/more-horizontal.svg" },
+    { id: "whole-word", src: "Edit Formatting/text-selection.svg" },
+    { id: "case-sensitive", src: "Edit Formatting/text-all-caps.svg" },
+    { id: "regex", src: "Programming Language/re_.svg" },
+    { id: "preserve-case", src: "Edit Formatting/text-smallcaps.svg" },
+    { id: "replace", src: "Edit Formatting/arrange.svg" },
+    { id: "replace-all", src: "Edit Formatting/layers-02.svg" },
+
+    // Explorer and source control
+    { id: "save-all", src: "Devices/floppy-disk.svg" },
+    { id: "git-stash", src: "Download Upload/download-02.svg" },
+    { id: "git-fetch", src: "Download Upload/download-01.svg" },
+    { id: "repo-push", src: "Download Upload/upload-01.svg" },
+    { id: "repo-pull", src: "Download Upload/download-01.svg" },
+    { id: "repo-clone", src: "Edit Formatting/copy-01.svg" },
+    { id: "diff-added", src: "Add Remove Delete/add-square.svg" },
+    { id: "diff-modified", src: "Edit Formatting/edit-02.svg" },
+    { id: "diff-removed", src: "Mathematics/minus-sign-square.svg" },
+
+    // Status
+    { id: "pass-filled", src: "Check Validation/checkmark-circle-02.svg" },
+    { id: "issues", src: "Alert Notification/alert-circle.svg" },
+    { id: "sync-ignored", src: "Edit Formatting/reload.svg" },
+    { id: "circle-filled", svg: DOT },
+    { id: "circle-outline", svg: RING },
+
+    // Layout and splits
+    { id: "layout-panel", src: "Layout Borders/layout-bottom.svg" },
+    { id: "layout-activitybar-left", src: "Layout Borders/layout-left.svg" },
+    { id: "split-horizontal", src: "Layout Borders/layout-2-column.svg" },
+    { id: "split-vertical", src: "Layout Borders/layout-2-row.svg" },
+
+    // Testing and notebooks
+    { id: "beaker", src: "Science technology/test-tube.svg" },
+    { id: "beaker-stop", src: "Science technology/test-tube.svg" },
+    { id: "testing-run-icon", src: "Media/play.svg" },
+    { id: "testing-debug-icon", src: "Programming Language/bug-01.svg" },
+    { id: "notebook-execute", src: "Media/play.svg" },
+    { id: "notebook-execute-all", src: "Image Camera Video/play-list.svg" },
+    { id: "notebook-stop-edit", src: "Media/stop.svg" },
+    { id: "notebook-kernel-select", src: "Programming Language/software.svg" },
+
+    // Activity bar
+    { id: "remote-explorer-view-icon", src: "Programming Language/computer-programming-01.svg" },
+
+    // Symbols in autocomplete, outline and breadcrumbs
+    { id: "symbol-class", src: "Geometric Shapes/geometric-shapes-01.svg" },
+    { id: "symbol-method", src: "Mathematics/cube.svg" },
+    { id: "symbol-function", src: "Mathematics/function-of-x.svg" },
+    { id: "symbol-variable", src: "Programming Language/variable.svg" },
+    { id: "symbol-field", src: "Mathematics/x-variable.svg" },
+    { id: "symbol-property", src: "Programming Language/property-new.svg" },
+    { id: "symbol-constant", src: "Mathematics/pi.svg" },
+    { id: "symbol-keyword", src: "Security/lock-key.svg" },
+    { id: "symbol-string", src: "Edit Formatting/quote-down.svg" },
+    { id: "symbol-interface", src: "Programming Language/api.svg" },
+    { id: "symbol-enum", src: "Edit Formatting/left-to-right-list-number.svg" },
+    { id: "symbol-namespace", src: "Mathematics/3rd-brecket.svg" }, // the library spells it "brecket"
+    { id: "symbol-module", src: "Programming Language/code-folder.svg" },
+    { id: "symbol-struct", src: "Hierarchy/structure-01.svg" },
+    { id: "symbol-event", src: "Devices/electric-plugs.svg" },
+    { id: "symbol-operator", src: "Mathematics/plus-minus-01.svg" },
+    { id: "symbol-snippet", src: "Programming Language/document-code.svg" },
+    { id: "symbol-file", src: "Files Folders/file-01.svg" },
+    { id: "symbol-folder", src: "Files Folders/folder-01.svg" },
+    { id: "symbol-color", src: "Edit Formatting/colors.svg" },
+    { id: "symbol-unit", src: "Edit Formatting/ruler.svg" },
+    { id: "symbol-text", src: "Edit Formatting/text.svg" },
+    { id: "symbol-value", src: "Mathematics/equal-sign-square.svg" },
+    { id: "symbol-reference", src: "Link Unlink/link-01.svg" },
 ];

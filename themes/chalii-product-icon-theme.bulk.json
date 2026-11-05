@@ -585,6 +585,310 @@
     "zoom-out": {
       "fontCharacter": "\\E08D",
       "fontId": "chalii-product-icons-bulk"
+    },
+    "arrow-small-right": {
+      "fontCharacter": "\\E08E",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "arrow-small-left": {
+      "fontCharacter": "\\E08F",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "arrow-small-up": {
+      "fontCharacter": "\\E090",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "arrow-small-down": {
+      "fontCharacter": "\\E091",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "list-flat": {
+      "fontCharacter": "\\E092",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "list-tree": {
+      "fontCharacter": "\\E093",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-breakpoint": {
+      "fontCharacter": "\\E094",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-breakpoint-conditional": {
+      "fontCharacter": "\\E095",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-breakpoint-unverified": {
+      "fontCharacter": "\\E096",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-breakpoint-function": {
+      "fontCharacter": "\\E097",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-stackframe": {
+      "fontCharacter": "\\E098",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-stackframe-focused": {
+      "fontCharacter": "\\E099",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-console": {
+      "fontCharacter": "\\E09A",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "debug-rerun": {
+      "fontCharacter": "\\E09B",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "run-all": {
+      "fontCharacter": "\\E09C",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "run-above": {
+      "fontCharacter": "\\E09D",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "run-below": {
+      "fontCharacter": "\\E09E",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "lightbulb-autofix": {
+      "fontCharacter": "\\E09F",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "more": {
+      "fontCharacter": "\\E0A0",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "whole-word": {
+      "fontCharacter": "\\E0A1",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "case-sensitive": {
+      "fontCharacter": "\\E0A2",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "regex": {
+      "fontCharacter": "\\E0A3",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "preserve-case": {
+      "fontCharacter": "\\E0A4",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "replace": {
+      "fontCharacter": "\\E0A5",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "replace-all": {
+      "fontCharacter": "\\E0A6",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "save-all": {
+      "fontCharacter": "\\E0A7",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "git-stash": {
+      "fontCharacter": "\\E0A8",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "git-fetch": {
+      "fontCharacter": "\\E0A9",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "repo-push": {
+      "fontCharacter": "\\E0AA",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "repo-pull": {
+      "fontCharacter": "\\E0AB",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "repo-clone": {
+      "fontCharacter": "\\E0AC",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "diff-added": {
+      "fontCharacter": "\\E0AD",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "diff-modified": {
+      "fontCharacter": "\\E0AE",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "diff-removed": {
+      "fontCharacter": "\\E0AF",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "pass-filled": {
+      "fontCharacter": "\\E0B0",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "issues": {
+      "fontCharacter": "\\E0B1",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "sync-ignored": {
+      "fontCharacter": "\\E0B2",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "circle-filled": {
+      "fontCharacter": "\\E0B3",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "circle-outline": {
+      "fontCharacter": "\\E0B4",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "layout-panel": {
+      "fontCharacter": "\\E0B5",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "layout-activitybar-left": {
+      "fontCharacter": "\\E0B6",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\E0B7",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "split-vertical": {
+      "fontCharacter": "\\E0B8",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "beaker": {
+      "fontCharacter": "\\E0B9",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "beaker-stop": {
+      "fontCharacter": "\\E0BA",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "testing-run-icon": {
+      "fontCharacter": "\\E0BB",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "testing-debug-icon": {
+      "fontCharacter": "\\E0BC",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "notebook-execute": {
+      "fontCharacter": "\\E0BD",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "notebook-execute-all": {
+      "fontCharacter": "\\E0BE",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "notebook-stop-edit": {
+      "fontCharacter": "\\E0BF",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "notebook-kernel-select": {
+      "fontCharacter": "\\E0C0",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "remote-explorer-view-icon": {
+      "fontCharacter": "\\E0C1",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\E0C2",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-method": {
+      "fontCharacter": "\\E0C3",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-function": {
+      "fontCharacter": "\\E0C4",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-variable": {
+      "fontCharacter": "\\E0C5",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-field": {
+      "fontCharacter": "\\E0C6",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-property": {
+      "fontCharacter": "\\E0C7",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-constant": {
+      "fontCharacter": "\\E0C8",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-keyword": {
+      "fontCharacter": "\\E0C9",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-string": {
+      "fontCharacter": "\\E0CA",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-interface": {
+      "fontCharacter": "\\E0CB",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-enum": {
+      "fontCharacter": "\\E0CC",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-namespace": {
+      "fontCharacter": "\\E0CD",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-module": {
+      "fontCharacter": "\\E0CE",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-struct": {
+      "fontCharacter": "\\E0CF",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-event": {
+      "fontCharacter": "\\E0D0",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-operator": {
+      "fontCharacter": "\\E0D1",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-snippet": {
+      "fontCharacter": "\\E0D2",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-file": {
+      "fontCharacter": "\\E0D3",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-folder": {
+      "fontCharacter": "\\E0D4",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-color": {
+      "fontCharacter": "\\E0D5",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-unit": {
+      "fontCharacter": "\\E0D6",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-text": {
+      "fontCharacter": "\\E0D7",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-value": {
+      "fontCharacter": "\\E0D8",
+      "fontId": "chalii-product-icons-bulk"
+    },
+    "symbol-reference": {
+      "fontCharacter": "\\E0D9",
+      "fontId": "chalii-product-icons-bulk"
     }
   }
 }
