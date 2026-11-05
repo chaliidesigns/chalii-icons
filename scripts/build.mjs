@@ -9,6 +9,7 @@
 //
 // Override the upstream library source root with ICONS_SRC_ROOT env var.
 // Pass --style=<id> (repeatable) to limit the build to specific styles.
+// Product icons are always rebuilt. Add --file-icons to also rebuild the file icons.
 // The build checks that every source icon exists before writing; pass --allow-missing to skip that check.
 
 import fs from "node:fs";
@@ -17,6 +18,7 @@ import url from "node:url";
 import { generateFonts, FontAssetType, OtherAssetType } from "fantasticon";
 import { fileIcons, folderNames, productIcons } from "./manifest.mjs";
 import { enabledStyles, styles as allStyles } from "./styles.mjs";
+import { traceGlyph } from "./lib/glyph.mjs";
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, "..");
@@ -50,6 +52,9 @@ function resolveSrc(style, manifestPath) {
 // copied nothing and overwrote the committed theme files with empty ones.
 // Pass --allow-missing to build anyway and accept a partial result.
 const allowMissing = process.argv.includes("--allow-missing");
+// File icons are only rebuilt on request. The solid file icons were replaced by hand in
+// v1.2.0, so a plain run must not overwrite them. Product icons are always rebuilt.
+const withFileIcons = process.argv.includes("--file-icons");
 
 function preflight() {
     if (!fs.existsSync(ICONS_SRC_ROOT)) {
@@ -65,9 +70,11 @@ function preflight() {
             problems.push(`${style.id}: style folder not found: ${styleRoot}`);
             continue;
         }
-        const absent = [...fileIcons, ...productIcons]
-            .map((icon) => icon.src)
-            .filter((src) => !fs.existsSync(resolveSrc(style, src)));
+        const committed = (kind, name) => fs.existsSync(path.join(repoRoot, "icons", style.id, kind === "file" ? "file-icons/dark" : "product-icons", `${name}.svg`));
+        const absent = [
+            ...(withFileIcons ? fileIcons : []).filter((i) => !fs.existsSync(resolveSrc(style, i.src)) && !committed("file", i.name)).map((i) => i.src),
+            ...productIcons.filter((i) => !fs.existsSync(resolveSrc(style, i.src)) && !committed("product", i.id)).map((i) => i.src),
+        ];
         if (absent.length) {
             problems.push(`${style.id}: ${absent.length} source icon(s) missing, for example ${absent.slice(0, 3).join(", ")}`);
         }
@@ -93,6 +100,7 @@ async function buildStyle(style) {
     }
 
     let copied = 0;
+    let kept = 0; // icons this copy of the library lacks, left as committed
     const missing = [];
 
     // Brand fills used when generating light/dark variants of file icons.
@@ -104,6 +112,8 @@ async function buildStyle(style) {
     function copyIcon(srcRel, destPath, opts = {}) {
         const srcAbs = resolveSrc(style, srcRel);
         if (!fs.existsSync(srcAbs)) {
+            // Newer icons that this copy of the library lacks stay as committed.
+            if (fs.existsSync(destPath)) { kept++; return true; }
             missing.push(`${opts.label}: ${srcRel}`);
             return false;
         }
@@ -128,94 +138,96 @@ async function buildStyle(style) {
         return true;
     }
 
-    // ---- File icons ----
-    // Two variants per icon: dark (default) + light (used when a light color
-    // theme is active, via the `light` block in the theme JSON).
-    const iconDefs = {};
-    const byExt = {};
-    const byName = {};
-    const byLang = {};
-    const lightDefs = {};
-    const lightByExt = {};
-    const lightByName = {};
-    const lightByLang = {};
+    if (withFileIcons) {
+        // ---- File icons ----
+        // Two variants per icon: dark (default) + light (used when a light color
+        // theme is active, via the `light` block in the theme JSON).
+        const iconDefs = {};
+        const byExt = {};
+        const byName = {};
+        const byLang = {};
+        const lightDefs = {};
+        const lightByExt = {};
+        const lightByName = {};
+        const lightByLang = {};
 
-    for (const icon of fileIcons) {
-        const darkDest = path.join(fileIconsDarkDir, `${icon.name}.svg`);
-        const lightDest = path.join(fileIconsLightDir, `${icon.name}.svg`);
-        if (!copyIcon(icon.src, darkDest, {
-            label: `file-icon ${icon.name} (dark)`,
-            recolorTo: DARK_FILL,
-        })) continue;
-        copyIcon(icon.src, lightDest, {
-            label: `file-icon ${icon.name} (light)`,
-            recolorTo: LIGHT_FILL,
-        });
+        for (const icon of fileIcons) {
+            const darkDest = path.join(fileIconsDarkDir, `${icon.name}.svg`);
+            const lightDest = path.join(fileIconsLightDir, `${icon.name}.svg`);
+            if (!copyIcon(icon.src, darkDest, {
+                label: `file-icon ${icon.name} (dark)`,
+                recolorTo: DARK_FILL,
+            })) continue;
+            copyIcon(icon.src, lightDest, {
+                label: `file-icon ${icon.name} (light)`,
+                recolorTo: LIGHT_FILL,
+            });
 
-        const defKey = `_${icon.name.replace(/-/g, "_")}`;
-        const lightKey = `${defKey}_light`;
-        iconDefs[defKey] = { iconPath: `../icons/${style.id}/file-icons/dark/${icon.name}.svg` };
-        lightDefs[lightKey] = { iconPath: `../icons/${style.id}/file-icons/light/${icon.name}.svg` };
+            const defKey = `_${icon.name.replace(/-/g, "_")}`;
+            const lightKey = `${defKey}_light`;
+            iconDefs[defKey] = { iconPath: `../icons/${style.id}/file-icons/dark/${icon.name}.svg` };
+            lightDefs[lightKey] = { iconPath: `../icons/${style.id}/file-icons/light/${icon.name}.svg` };
 
-        for (const ext of icon.extensions ?? []) {
-            byExt[ext.toLowerCase()] = defKey;
-            lightByExt[ext.toLowerCase()] = lightKey;
+            for (const ext of icon.extensions ?? []) {
+                byExt[ext.toLowerCase()] = defKey;
+                lightByExt[ext.toLowerCase()] = lightKey;
+            }
+            for (const fn of icon.fileNames ?? []) {
+                byName[fn.toLowerCase()] = defKey;
+                lightByName[fn.toLowerCase()] = lightKey;
+            }
+            for (const lid of icon.languageIds ?? []) {
+                byLang[lid.toLowerCase()] = defKey;
+                lightByLang[lid.toLowerCase()] = lightKey;
+            }
         }
-        for (const fn of icon.fileNames ?? []) {
-            byName[fn.toLowerCase()] = defKey;
-            lightByName[fn.toLowerCase()] = lightKey;
+
+        const folderNameMap = {};
+        const folderNameExpandedMap = {};
+        const folderNameMapLight = {};
+        const folderNameExpandedMapLight = {};
+        for (const [name, iconName] of Object.entries(folderNames)) {
+            const defKey = `_${iconName.replace(/-/g, "_")}`;
+            const lightKey = `${defKey}_light`;
+            if (!iconDefs[defKey]) continue;
+            folderNameMap[name.toLowerCase()] = defKey;
+            folderNameExpandedMap[name.toLowerCase()] = defKey;
+            folderNameMapLight[name.toLowerCase()] = lightKey;
+            folderNameExpandedMapLight[name.toLowerCase()] = lightKey;
         }
-        for (const lid of icon.languageIds ?? []) {
-            byLang[lid.toLowerCase()] = defKey;
-            lightByLang[lid.toLowerCase()] = lightKey;
-        }
+
+        const fileTheme = {
+            $schema: "vscode://schemas/icon-theme",
+            iconDefinitions: { ...iconDefs, ...lightDefs },
+            file: "_file",
+            folder: "_folder",
+            folderExpanded: "_folder_open",
+            rootFolder: "_folder",
+            rootFolderExpanded: "_folder_open",
+            fileExtensions: byExt,
+            fileNames: byName,
+            languageIds: byLang,
+            folderNames: folderNameMap,
+            folderNamesExpanded: folderNameExpandedMap,
+            light: {
+                file: "_file_light",
+                folder: "_folder_light",
+                folderExpanded: "_folder_open_light",
+                rootFolder: "_folder_light",
+                rootFolderExpanded: "_folder_open_light",
+                fileExtensions: lightByExt,
+                fileNames: lightByName,
+                languageIds: lightByLang,
+                folderNames: folderNameMapLight,
+                folderNamesExpanded: folderNameExpandedMapLight,
+            },
+            hidesExplorerArrows: false,
+        };
+        fs.writeFileSync(
+            path.join(themesDir, `chalii-file-icon-theme.${style.id}.json`),
+            JSON.stringify(fileTheme, null, 2) + "\n",
+        );
     }
-
-    const folderNameMap = {};
-    const folderNameExpandedMap = {};
-    const folderNameMapLight = {};
-    const folderNameExpandedMapLight = {};
-    for (const [name, iconName] of Object.entries(folderNames)) {
-        const defKey = `_${iconName.replace(/-/g, "_")}`;
-        const lightKey = `${defKey}_light`;
-        if (!iconDefs[defKey]) continue;
-        folderNameMap[name.toLowerCase()] = defKey;
-        folderNameExpandedMap[name.toLowerCase()] = defKey;
-        folderNameMapLight[name.toLowerCase()] = lightKey;
-        folderNameExpandedMapLight[name.toLowerCase()] = lightKey;
-    }
-
-    const fileTheme = {
-        $schema: "vscode://schemas/icon-theme",
-        iconDefinitions: { ...iconDefs, ...lightDefs },
-        file: "_file",
-        folder: "_folder",
-        folderExpanded: "_folder_open",
-        rootFolder: "_folder",
-        rootFolderExpanded: "_folder_open",
-        fileExtensions: byExt,
-        fileNames: byName,
-        languageIds: byLang,
-        folderNames: folderNameMap,
-        folderNamesExpanded: folderNameExpandedMap,
-        light: {
-            file: "_file_light",
-            folder: "_folder_light",
-            folderExpanded: "_folder_open_light",
-            rootFolder: "_folder_light",
-            rootFolderExpanded: "_folder_open_light",
-            fileExtensions: lightByExt,
-            fileNames: lightByName,
-            languageIds: lightByLang,
-            folderNames: folderNameMapLight,
-            folderNamesExpanded: folderNameExpandedMapLight,
-        },
-        hidesExplorerArrows: false,
-    };
-    fs.writeFileSync(
-        path.join(themesDir, `chalii-file-icon-theme.${style.id}.json`),
-        JSON.stringify(fileTheme, null, 2) + "\n",
-    );
 
     // Product icon themes only support glyphs from a font (not iconPath/SVG).
     // We copy SVGs (currentColor) and bake them into a WOFF font with
@@ -226,13 +238,23 @@ async function buildStyle(style) {
     const validIds = [];
     for (const icon of productIcons) {
         const dest = path.join(productIconsDir, `${icon.id}.svg`);
-        if (!copyIcon(icon.src, dest, {
-            label: `product-icon ${icon.id}`,
-            recolorToCurrentColor: true,
-        })) continue;
+        const srcAbs = resolveSrc(style, icon.src);
+        if (fs.existsSync(srcAbs)) {
+            fs.writeFileSync(dest, await traceGlyph(fs.readFileSync(srcAbs, "utf8"), style.glyph));
+            copied++;
+        } else if (fs.existsSync(dest)) {
+            kept++;
+        } else {
+            missing.push(`product-icon ${icon.id}: ${icon.src}`);
+            continue;
+        }
         codepoints[icon.id] = nextCp++;
         validIds.push(icon.id);
     }
+
+    // Drop glyph files that are no longer in the manifest so they do not end up in the font.
+    const wanted = new Set(productIcons.map((i) => `${i.id}.svg`));
+    for (const f of fs.readdirSync(productIconsDir)) if (!wanted.has(f)) fs.rmSync(path.join(productIconsDir, f));
 
     const fontsDir = path.join(themesDir, "fonts");
     fs.mkdirSync(fontsDir, { recursive: true });
@@ -278,7 +300,7 @@ async function buildStyle(style) {
         JSON.stringify(productTheme, null, 2) + "\n",
     );
 
-    return { copied, missing };
+    return { copied, kept, missing };
 }
 
 console.log(`chalii-icons build`);
@@ -287,8 +309,9 @@ console.log(`  ICONS_SRC_ROOT: ${ICONS_SRC_ROOT}`);
 let failed = false;
 for (const style of targetStyles) {
     console.log(`\n  ▸ ${style.id} (${style.label}) — ${style.srcRoot}`);
-    const { copied, missing } = await buildStyle(style);
+    const { copied, kept, missing } = await buildStyle(style);
     console.log(`      copied:  ${copied}`);
+    if (kept) console.log(`      kept as committed (not in this library copy): ${kept}`);
     console.log(`      missing: ${missing.length}`);
     if (missing.length) {
         failed = true;

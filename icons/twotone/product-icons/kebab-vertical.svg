@@ -1,5 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" d="M11.992 12H12.001" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11.9842 18H11.9932" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11.9998 6H12.0088" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768"><path fill="currentColor" d="M373.169,153.566c19.28,-5.188 39.149,4.076 47.651,22.216c3.94,8.407 3.94,24.029 0,32.436c-4.98,10.624 -14.532,18.849 -25.752,22.173c-29.561,8.758 -58.243,-19.868 -49.478,-49.382c3.814,-12.845 15.115,-24.089 27.579,-27.443M372,345.875c29.771,-9.566 59.294,19.199 50.41,49.116c-6.236,20.998 -28.838,33.515 -49.478,27.4c-38.04,-11.27 -38.687,-64.384 -0.932,-76.516M372,537.882c27.472,-8.865 56.127,15.901 51.142,44.201c-5.702,32.37 -44.848,45.269 -67.446,22.224c-16.221,-16.541 -16.221,-40.078 0,-56.612c5.364,-5.468 8.282,-7.224 16.304,-9.813"/></svg>
