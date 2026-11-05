@@ -9,6 +9,7 @@
 //
 // Override the upstream library source root with ICONS_SRC_ROOT env var.
 // Pass --style=<id> (repeatable) to limit the build to specific styles.
+// The build checks that every source icon exists before writing; pass --allow-missing to skip that check.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -43,6 +44,43 @@ function resolveSrc(style, manifestPath) {
     const remapped = style.categoryAlias?.[category] ?? category;
     return path.join(ICONS_SRC_ROOT, style.srcRoot, remapped, rest.join("/"));
 }
+
+// Safety check that runs before anything is written. The source icon library is
+// licensed and lives outside this repo, so on a machine without it the old build
+// copied nothing and overwrote the committed theme files with empty ones.
+// Pass --allow-missing to build anyway and accept a partial result.
+const allowMissing = process.argv.includes("--allow-missing");
+
+function preflight() {
+    if (!fs.existsSync(ICONS_SRC_ROOT)) {
+        console.error(`\nSource icon library not found: ${ICONS_SRC_ROOT}`);
+        console.error("Set ICONS_SRC_ROOT to the folder that holds the icon set and run again.");
+        console.error("Nothing was written. The committed icons and theme files are untouched.\n");
+        process.exit(2);
+    }
+    const problems = [];
+    for (const style of targetStyles) {
+        const styleRoot = path.join(ICONS_SRC_ROOT, style.srcRoot);
+        if (!fs.existsSync(styleRoot)) {
+            problems.push(`${style.id}: style folder not found: ${styleRoot}`);
+            continue;
+        }
+        const absent = [...fileIcons, ...productIcons]
+            .map((icon) => icon.src)
+            .filter((src) => !fs.existsSync(resolveSrc(style, src)));
+        if (absent.length) {
+            problems.push(`${style.id}: ${absent.length} source icon(s) missing, for example ${absent.slice(0, 3).join(", ")}`);
+        }
+    }
+    if (problems.length && !allowMissing) {
+        console.error("\nBuild stopped before writing anything:");
+        for (const problem of problems) console.error(`  - ${problem}`);
+        console.error("The committed icons and theme files are untouched.");
+        console.error("Fix ICONS_SRC_ROOT, or pass --allow-missing to build a partial set.\n");
+        process.exit(2);
+    }
+}
+preflight();
 
 async function buildStyle(style) {
     const fileIconsDarkDir = path.join(repoRoot, "icons", style.id, "file-icons", "dark");
