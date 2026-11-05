@@ -5,7 +5,7 @@
 <h1 align="center">Chalii Icons</h1>
 
 <p align="center">
-  Multi-style file & product icon themes for VS Code and the wider VS Code family — tuned for the Chalii brand.<br>
+  Multi-style file & product icon themes for VS Code and the wider VS Code family - tuned for the Chalii brand.<br>
   Seven styles, one source manifest, ports for JetBrains, Neovim, Emacs, Sublime Text and Visual Studio.
 </p>
 
@@ -44,19 +44,19 @@
 
 ## 🌟 Highlights
 
-- 🎨 **Seven icon styles** — Solid, Duotone, Twotone, Stroke, Bulk, Sharp Solid and Sharp Stroke, each a separate theme in the picker
-- 🧩 **Two independent themes per style** — file/folder icons (Explorer, tabs, breadcrumbs) and product icons (Activity Bar, status bar, gutters, panels)
-- 🖥️ **Works across the VS Code family** — VS Code, Insiders, VSCodium, Cursor, Windsurf, Trae, Codespaces, Gitpod, code-server, Theia
-- 🔁 **One manifest, many editors** — the same `scripts/manifest.mjs` generates ports for JetBrains, Neovim, Emacs, Sublime Text and Visual Studio
+- 🎨 **Seven icon styles** - Solid, Duotone, Twotone, Stroke, Bulk, Sharp Solid and Sharp Stroke, each a separate theme in the picker
+- 🧩 **Two independent themes per style** - file/folder icons (Explorer, tabs, breadcrumbs) and product icons (Activity Bar, status bar, gutters, panels)
+- 🖥️ **Works across the VS Code family** - VS Code, Insiders, VSCodium, Cursor, Windsurf, Trae, Codespaces, Gitpod, code-server, Theia
+- 🔁 **One manifest, many editors** - the same `scripts/manifest.mjs` generates ports for JetBrains, Neovim, Emacs, Sublime Text and Visual Studio
 - 🌙 **Dark & light variants** of every file icon, colour-tuned to pair with [Chalii Themes](https://marketplace.visualstudio.com/items?itemName=makindajack.chalii-themes)
 
 ## ✨ Features
 
 - **1,700+ file-icon definitions** across the seven styles, with `dark/` and `light/` SVG sets per style
 - **~140 product-icon overrides per style**, shipped as generated WOFF/WOFF2 icon fonts (built with fantasticon)
-- **File, folder and language mappings** — file extensions, exact file names, language IDs, folder names and expanded-folder states
-- **Published to both registries** — VS Code Marketplace and Open VSX, via a tag-triggered GitHub Actions workflow
-- **Ports generated from the same source** — JetBrains plugin (Kotlin/Gradle), Neovim (`nvim-web-devicons`), Emacs (`nerd-icons.el`), Sublime Text (Package Control) and Visual Studio 2022
+- **File, folder and language mappings** - file extensions, exact file names, language IDs, folder names and expanded-folder states
+- **Published to both registries** - VS Code Marketplace and Open VSX, via a tag-triggered GitHub Actions workflow
+- **Ports generated from the same source** - JetBrains plugin (Kotlin/Gradle), Neovim (`nvim-web-devicons`), Emacs (`nerd-icons.el`), Sublime Text (Package Control) and Visual Studio 2022
 - **Contact sheet** rendering (`images/contact-sheet.*`) via `@resvg/resvg-js` for reviewing a whole style at a glance
 
 ## 🚀 Quick Start
@@ -66,7 +66,7 @@
 code --install-extension makindajack.chalii-icons
 ```
 
-Then set both themes in `settings.json` (or use the Command Palette — see [Activate](#-activate)):
+Then set both themes in `settings.json` (or use the Command Palette - see [Activate](#-activate)):
 
 ```jsonc
 {
@@ -99,7 +99,7 @@ code --install-extension makindajack.chalii-icons
 code-insiders --install-extension makindajack.chalii-icons
 ```
 
-In Codespaces and `vscode.dev` / `github.dev`, install the same way as desktop VS Code — search and install from the in-browser Extensions view.
+In Codespaces and `vscode.dev` / `github.dev`, install the same way as desktop VS Code - search and install from the in-browser Extensions view.
 
 ### Cursor
 
@@ -163,11 +163,11 @@ code --install-extension chalii-icons-<version>.vsix
 
 ### Not yet supported
 
-JetBrains IDEs, Sublime Text, Neovim, Emacs and Visual Studio don't implement the VS Code icon-theme format — they get their own ports under [`packages/`](packages/) (see [Other Editors](#-other-editors)). Xcode, Fleet and Zed are tracked in the [roadmap](docs/overview/roadmap.md).
+JetBrains IDEs, Sublime Text, Neovim, Emacs and Visual Studio don't implement the VS Code icon-theme format - they get their own ports under [`packages/`](packages/) (see [Other Editors](#-other-editors)). Xcode, Fleet and Zed are tracked in the [roadmap](docs/overview/roadmap.md).
 
 ## 🎛️ Activate
 
-Once installed, switch each theme independently. They're separate settings — you can use one without the other.
+Once installed, switch each theme independently. They're separate settings - you can use one without the other.
 
 ### File icons
 
@@ -292,19 +292,19 @@ chalii-icons/
 
 Publishing is automated with GitHub Actions:
 
-- **VS Code Marketplace + Open VSX** — push a `vscode/v*` tag; `build.yml` packages the VSIX with `@vscode/vsce` and publishes with `VSCE_PAT` / `OVSX_PAT`.
-- **JetBrains Marketplace** — push a `jb/v*` tag; `jetbrains.yml` runs `./gradlew buildPlugin verifyPlugin` then signs and publishes.
-- **Sublime Text** — `./scripts/sync-sublime-repo.sh <version>` mirrors the package to [chalii-icons-sublime](https://github.com/chaliidesigns/chalii-icons-sublime) and tags it for Package Control.
+- **VS Code Marketplace + Open VSX** - push a `vscode/v*` tag; `build.yml` packages the VSIX with `@vscode/vsce` and publishes with `VSCE_PAT` / `OVSX_PAT`.
+- **JetBrains Marketplace** - push a `jb/v*` tag; `jetbrains.yml` runs `./gradlew buildPlugin verifyPlugin` then signs and publishes.
+- **Sublime Text** - `./scripts/sync-sublime-repo.sh <version>` mirrors the package to [chalii-icons-sublime](https://github.com/chaliidesigns/chalii-icons-sublime) and tags it for Package Control.
 
 Details: [docs/overview/publishing.md](docs/overview/publishing.md) · [docs/overview/versioning.md](docs/overview/versioning.md).
 
 ## 🛠️ Troubleshooting
 
-**Icons didn't change after installing.** Run **Preferences: File Icon Theme** _and_ **Preferences: Product Icon Theme** explicitly — installation alone doesn't activate either.
+**Icons didn't change after installing.** Run **Preferences: File Icon Theme** _and_ **Preferences: Product Icon Theme** explicitly - installation alone doesn't activate either.
 
 **A specific file type still uses the default icon.** That extension isn't in the manifest yet. Open an [issue](https://github.com/chaliidesigns/chalii-icons/issues) with the extension name.
 
-**Some UI icons (gutter, status bar) are unchanged.** Product Icon Themes can only override icons whose codicon ID is mapped. Anything not yet in the manifest falls back to the built-in codicon — that's by design.
+**Some UI icons (gutter, status bar) are unchanged.** Product Icon Themes can only override icons whose codicon ID is mapped. Anything not yet in the manifest falls back to the built-in codicon - that's by design.
 
 **Cursor / Windsurf / Trae can't find it.** Their bundled Open VSX index sometimes lags. Fall back to the [manual `.vsix` install](#manual-install-any-compatible-editor).
 
@@ -317,11 +317,11 @@ Details: [docs/overview/publishing.md](docs/overview/publishing.md) · [docs/ove
 
 ## 📄 License
 
-MIT — see [LICENSE.md](LICENSE.md)
+MIT - see [LICENSE.md](LICENSE.md)
 
 ## 👤 Author
 
-**Chalii Designs** — design & engineering studio by Jackson Makinda — [makindajackson.com](https://makindajackson.com)
+**Chalii Designs** - design & engineering studio by Jackson Makinda - [makindajackson.com](https://makindajackson.com)
 
 - 📧 Email: me@makindajackson.com
 - 💼 LinkedIn: [Jackson Makinda](https://linkedin.com/in/makindajack)
