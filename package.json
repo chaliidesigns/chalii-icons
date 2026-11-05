@@ -109,7 +109,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "build:clean": "rm -rf icons themes && node scripts/build.mjs",
+    "build:clean": "rm -rf icons/*/product-icons themes/fonts themes/chalii-product-icon-theme.*.json && node scripts/build.mjs",
     "build:solid": "node scripts/build.mjs --style=solid",
     "build:duotone": "node scripts/build.mjs --style=duotone",
     "build:jetbrains": "node scripts/build-jetbrains.mjs",
@@ -122,6 +122,8 @@
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
-    "fantasticon": "^4.1.0"
+    "fantasticon": "^4.1.0",
+    "paper": "^0.17.0",
+    "potrace": "^2.1.8"
   }
 }

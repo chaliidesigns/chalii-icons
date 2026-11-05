@@ -58,516 +58,532 @@
       "fontCharacter": "\\E009",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chevron-up": {
+    "settings-gear": {
       "fontCharacter": "\\E00A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chevron-down": {
+    "settings-view-bar-icon": {
       "fontCharacter": "\\E00B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chevron-left": {
+    "chevron-up": {
       "fontCharacter": "\\E00C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chevron-right": {
+    "chevron-down": {
       "fontCharacter": "\\E00D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "arrow-up": {
+    "chevron-left": {
       "fontCharacter": "\\E00E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "arrow-down": {
+    "chevron-right": {
       "fontCharacter": "\\E00F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "arrow-left": {
+    "arrow-up": {
       "fontCharacter": "\\E010",
       "fontId": "chalii-product-icons-twotone"
     },
-    "arrow-right": {
+    "arrow-down": {
       "fontCharacter": "\\E011",
       "fontId": "chalii-product-icons-twotone"
     },
-    "fold": {
+    "arrow-left": {
       "fontCharacter": "\\E012",
       "fontId": "chalii-product-icons-twotone"
     },
-    "unfold": {
+    "arrow-right": {
       "fontCharacter": "\\E013",
       "fontId": "chalii-product-icons-twotone"
     },
-    "expand-all": {
+    "fold": {
       "fontCharacter": "\\E014",
       "fontId": "chalii-product-icons-twotone"
     },
-    "collapse-all": {
+    "unfold": {
       "fontCharacter": "\\E015",
       "fontId": "chalii-product-icons-twotone"
     },
-    "add": {
+    "expand-all": {
       "fontCharacter": "\\E016",
       "fontId": "chalii-product-icons-twotone"
     },
-    "plus": {
+    "collapse-all": {
       "fontCharacter": "\\E017",
       "fontId": "chalii-product-icons-twotone"
     },
-    "remove": {
+    "add": {
       "fontCharacter": "\\E018",
       "fontId": "chalii-product-icons-twotone"
     },
-    "close": {
+    "plus": {
       "fontCharacter": "\\E019",
       "fontId": "chalii-product-icons-twotone"
     },
-    "close-all": {
+    "remove": {
       "fontCharacter": "\\E01A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "trash": {
+    "close": {
       "fontCharacter": "\\E01B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "clear-all": {
+    "close-all": {
       "fontCharacter": "\\E01C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "check": {
+    "trash": {
       "fontCharacter": "\\E01D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "pass": {
+    "clear-all": {
       "fontCharacter": "\\E01E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "error": {
+    "check": {
       "fontCharacter": "\\E01F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "warning": {
+    "pass": {
       "fontCharacter": "\\E020",
       "fontId": "chalii-product-icons-twotone"
     },
-    "info": {
+    "error": {
       "fontCharacter": "\\E021",
       "fontId": "chalii-product-icons-twotone"
     },
-    "question": {
+    "warning": {
       "fontCharacter": "\\E022",
       "fontId": "chalii-product-icons-twotone"
     },
-    "new-file": {
+    "info": {
       "fontCharacter": "\\E023",
       "fontId": "chalii-product-icons-twotone"
     },
-    "new-folder": {
+    "question": {
       "fontCharacter": "\\E024",
       "fontId": "chalii-product-icons-twotone"
     },
-    "save": {
+    "new-file": {
       "fontCharacter": "\\E025",
       "fontId": "chalii-product-icons-twotone"
     },
-    "file": {
+    "new-folder": {
       "fontCharacter": "\\E026",
       "fontId": "chalii-product-icons-twotone"
     },
-    "folder": {
+    "save": {
       "fontCharacter": "\\E027",
       "fontId": "chalii-product-icons-twotone"
     },
-    "folder-opened": {
+    "file": {
       "fontCharacter": "\\E028",
       "fontId": "chalii-product-icons-twotone"
     },
-    "edit": {
+    "folder": {
       "fontCharacter": "\\E029",
       "fontId": "chalii-product-icons-twotone"
     },
-    "pencil": {
+    "folder-opened": {
       "fontCharacter": "\\E02A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "copy": {
+    "edit": {
       "fontCharacter": "\\E02B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "comment": {
+    "pencil": {
       "fontCharacter": "\\E02C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "eye": {
+    "copy": {
       "fontCharacter": "\\E02D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "eye-closed": {
+    "comment": {
       "fontCharacter": "\\E02E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "git-branch": {
+    "eye": {
       "fontCharacter": "\\E02F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "git-commit": {
+    "eye-closed": {
       "fontCharacter": "\\E030",
       "fontId": "chalii-product-icons-twotone"
     },
-    "git-merge": {
+    "git-branch": {
       "fontCharacter": "\\E031",
       "fontId": "chalii-product-icons-twotone"
     },
-    "git-compare": {
+    "git-commit": {
       "fontCharacter": "\\E032",
       "fontId": "chalii-product-icons-twotone"
     },
-    "git-pull-request": {
+    "git-merge": {
       "fontCharacter": "\\E033",
       "fontId": "chalii-product-icons-twotone"
     },
-    "github": {
+    "git-compare": {
       "fontCharacter": "\\E034",
       "fontId": "chalii-product-icons-twotone"
     },
-    "bug": {
+    "git-pull-request": {
       "fontCharacter": "\\E035",
       "fontId": "chalii-product-icons-twotone"
     },
-    "play": {
+    "github": {
       "fontCharacter": "\\E036",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-start": {
+    "bug": {
       "fontCharacter": "\\E037",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-continue": {
+    "play": {
       "fontCharacter": "\\E038",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-pause": {
+    "debug-start": {
       "fontCharacter": "\\E039",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-stop": {
+    "debug-continue": {
       "fontCharacter": "\\E03A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-restart": {
+    "debug-pause": {
       "fontCharacter": "\\E03B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-disconnect": {
+    "debug-stop": {
       "fontCharacter": "\\E03C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-step-into": {
+    "debug-restart": {
       "fontCharacter": "\\E03D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-step-out": {
+    "debug-disconnect": {
       "fontCharacter": "\\E03E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "debug-step-over": {
+    "debug-step-into": {
       "fontCharacter": "\\E03F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "stop": {
+    "debug-step-out": {
       "fontCharacter": "\\E040",
       "fontId": "chalii-product-icons-twotone"
     },
-    "stop-circle": {
+    "debug-step-over": {
       "fontCharacter": "\\E041",
       "fontId": "chalii-product-icons-twotone"
     },
-    "record": {
+    "stop": {
       "fontCharacter": "\\E042",
       "fontId": "chalii-product-icons-twotone"
     },
-    "record-keys": {
+    "stop-circle": {
       "fontCharacter": "\\E043",
       "fontId": "chalii-product-icons-twotone"
     },
-    "terminal": {
+    "record": {
       "fontCharacter": "\\E044",
       "fontId": "chalii-product-icons-twotone"
     },
-    "terminal-bash": {
+    "record-keys": {
       "fontCharacter": "\\E045",
       "fontId": "chalii-product-icons-twotone"
     },
-    "bell": {
+    "terminal": {
       "fontCharacter": "\\E046",
       "fontId": "chalii-product-icons-twotone"
     },
-    "bell-dot": {
+    "terminal-bash": {
       "fontCharacter": "\\E047",
       "fontId": "chalii-product-icons-twotone"
     },
-    "heart": {
+    "bell": {
       "fontCharacter": "\\E048",
       "fontId": "chalii-product-icons-twotone"
     },
-    "star-empty": {
+    "bell-dot": {
       "fontCharacter": "\\E049",
       "fontId": "chalii-product-icons-twotone"
     },
-    "star-full": {
+    "heart": {
       "fontCharacter": "\\E04A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "bookmark": {
+    "star-empty": {
       "fontCharacter": "\\E04B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "tag": {
+    "star-full": {
       "fontCharacter": "\\E04C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "filter": {
+    "bookmark": {
       "fontCharacter": "\\E04D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "refresh": {
+    "tag": {
       "fontCharacter": "\\E04E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "sync": {
+    "filter": {
       "fontCharacter": "\\E04F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "lock": {
+    "refresh": {
       "fontCharacter": "\\E050",
       "fontId": "chalii-product-icons-twotone"
     },
-    "unlock": {
+    "sync": {
       "fontCharacter": "\\E051",
       "fontId": "chalii-product-icons-twotone"
     },
-    "menu": {
+    "lock": {
       "fontCharacter": "\\E052",
       "fontId": "chalii-product-icons-twotone"
     },
-    "ellipsis": {
+    "unlock": {
       "fontCharacter": "\\E053",
       "fontId": "chalii-product-icons-twotone"
     },
-    "kebab-vertical": {
+    "menu": {
       "fontCharacter": "\\E054",
       "fontId": "chalii-product-icons-twotone"
     },
-    "home": {
+    "ellipsis": {
       "fontCharacter": "\\E055",
       "fontId": "chalii-product-icons-twotone"
     },
-    "globe": {
+    "kebab-vertical": {
       "fontCharacter": "\\E056",
       "fontId": "chalii-product-icons-twotone"
     },
-    "key": {
+    "home": {
       "fontCharacter": "\\E057",
       "fontId": "chalii-product-icons-twotone"
     },
-    "lightbulb": {
+    "globe": {
       "fontCharacter": "\\E058",
       "fontId": "chalii-product-icons-twotone"
     },
-    "pin": {
+    "key": {
       "fontCharacter": "\\E059",
       "fontId": "chalii-product-icons-twotone"
     },
-    "pinned": {
+    "gear": {
       "fontCharacter": "\\E05A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "unpin": {
+    "tools": {
       "fontCharacter": "\\E05B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "clock": {
+    "lightbulb": {
       "fontCharacter": "\\E05C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "history": {
+    "pin": {
       "fontCharacter": "\\E05D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "calendar": {
+    "pinned": {
       "fontCharacter": "\\E05E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "layout-sidebar-left": {
+    "unpin": {
       "fontCharacter": "\\E05F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "layout-sidebar-right": {
+    "clock": {
       "fontCharacter": "\\E060",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chrome-close": {
+    "history": {
       "fontCharacter": "\\E061",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chrome-minimize": {
+    "calendar": {
       "fontCharacter": "\\E062",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chrome-maximize": {
+    "layout-sidebar-left": {
       "fontCharacter": "\\E063",
       "fontId": "chalii-product-icons-twotone"
     },
-    "chrome-restore": {
+    "layout-sidebar-right": {
       "fontCharacter": "\\E064",
       "fontId": "chalii-product-icons-twotone"
     },
-    "screen-full": {
+    "chrome-close": {
       "fontCharacter": "\\E065",
       "fontId": "chalii-product-icons-twotone"
     },
-    "screen-normal": {
+    "chrome-minimize": {
       "fontCharacter": "\\E066",
       "fontId": "chalii-product-icons-twotone"
     },
-    "cloud": {
+    "chrome-maximize": {
       "fontCharacter": "\\E067",
       "fontId": "chalii-product-icons-twotone"
     },
-    "cloud-download": {
+    "chrome-restore": {
       "fontCharacter": "\\E068",
       "fontId": "chalii-product-icons-twotone"
     },
-    "cloud-upload": {
+    "screen-full": {
       "fontCharacter": "\\E069",
       "fontId": "chalii-product-icons-twotone"
     },
-    "desktop-download": {
+    "screen-normal": {
       "fontCharacter": "\\E06A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "archive": {
+    "cloud": {
       "fontCharacter": "\\E06B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "package": {
+    "cloud-download": {
       "fontCharacter": "\\E06C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "repo": {
+    "cloud-upload": {
       "fontCharacter": "\\E06D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "library": {
+    "desktop-download": {
       "fontCharacter": "\\E06E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "code": {
+    "archive": {
       "fontCharacter": "\\E06F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "go-to-file": {
+    "package": {
       "fontCharacter": "\\E070",
       "fontId": "chalii-product-icons-twotone"
     },
-    "file-code": {
+    "repo": {
       "fontCharacter": "\\E071",
       "fontId": "chalii-product-icons-twotone"
     },
-    "export": {
+    "library": {
       "fontCharacter": "\\E072",
       "fontId": "chalii-product-icons-twotone"
     },
-    "import": {
+    "code": {
       "fontCharacter": "\\E073",
       "fontId": "chalii-product-icons-twotone"
     },
-    "discard": {
+    "go-to-file": {
       "fontCharacter": "\\E074",
       "fontId": "chalii-product-icons-twotone"
     },
-    "link": {
+    "file-code": {
       "fontCharacter": "\\E075",
       "fontId": "chalii-product-icons-twotone"
     },
-    "link-external": {
+    "export": {
       "fontCharacter": "\\E076",
       "fontId": "chalii-product-icons-twotone"
     },
-    "share": {
+    "import": {
       "fontCharacter": "\\E077",
       "fontId": "chalii-product-icons-twotone"
     },
-    "mail": {
+    "discard": {
       "fontCharacter": "\\E078",
       "fontId": "chalii-product-icons-twotone"
     },
-    "mail-read": {
+    "link": {
       "fontCharacter": "\\E079",
       "fontId": "chalii-product-icons-twotone"
     },
-    "inbox": {
+    "link-external": {
       "fontCharacter": "\\E07A",
       "fontId": "chalii-product-icons-twotone"
     },
-    "reply": {
+    "share": {
       "fontCharacter": "\\E07B",
       "fontId": "chalii-product-icons-twotone"
     },
-    "comment-discussion": {
+    "mail": {
       "fontCharacter": "\\E07C",
       "fontId": "chalii-product-icons-twotone"
     },
-    "note": {
+    "mail-read": {
       "fontCharacter": "\\E07D",
       "fontId": "chalii-product-icons-twotone"
     },
-    "notebook": {
+    "inbox": {
       "fontCharacter": "\\E07E",
       "fontId": "chalii-product-icons-twotone"
     },
-    "output": {
+    "reply": {
       "fontCharacter": "\\E07F",
       "fontId": "chalii-product-icons-twotone"
     },
-    "console": {
+    "comment-discussion": {
       "fontCharacter": "\\E080",
       "fontId": "chalii-product-icons-twotone"
     },
-    "sign-in": {
+    "note": {
       "fontCharacter": "\\E081",
       "fontId": "chalii-product-icons-twotone"
     },
-    "sign-out": {
+    "notebook": {
       "fontCharacter": "\\E082",
       "fontId": "chalii-product-icons-twotone"
     },
-    "feedback": {
+    "output": {
       "fontCharacter": "\\E083",
       "fontId": "chalii-product-icons-twotone"
     },
-    "thumbsup": {
+    "console": {
       "fontCharacter": "\\E084",
       "fontId": "chalii-product-icons-twotone"
     },
-    "thumbsdown": {
+    "sign-in": {
       "fontCharacter": "\\E085",
       "fontId": "chalii-product-icons-twotone"
     },
-    "loading": {
+    "sign-out": {
       "fontCharacter": "\\E086",
       "fontId": "chalii-product-icons-twotone"
     },
-    "search-stop": {
+    "feedback": {
       "fontCharacter": "\\E087",
       "fontId": "chalii-product-icons-twotone"
     },
-    "zoom-in": {
+    "thumbsup": {
       "fontCharacter": "\\E088",
       "fontId": "chalii-product-icons-twotone"
     },
-    "zoom-out": {
+    "thumbsdown": {
       "fontCharacter": "\\E089",
+      "fontId": "chalii-product-icons-twotone"
+    },
+    "loading": {
+      "fontCharacter": "\\E08A",
+      "fontId": "chalii-product-icons-twotone"
+    },
+    "search-stop": {
+      "fontCharacter": "\\E08B",
+      "fontId": "chalii-product-icons-twotone"
+    },
+    "zoom-in": {
+      "fontCharacter": "\\E08C",
+      "fontId": "chalii-product-icons-twotone"
+    },
+    "zoom-out": {
+      "fontCharacter": "\\E08D",
       "fontId": "chalii-product-icons-twotone"
     }
   }

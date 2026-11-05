@@ -1,6 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M22 3V21L2 21V3H22Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-<path d="M14 3L14 21" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-<path d="M19.5 7H16.5M19.5 11H16.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-<path d="M6 9L9 12L6 15" stroke="currentColor" stroke-width="1.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768"><path fill="currentColor" d="M55.505,73.603c6.236,-2.282 650.144,-2.343 656.619,-0.062c5.785,2.038 12.413,8.652 14.341,14.311c2.345,6.88 2.338,585.617 -0.006,592.272c-2.038,5.785 -8.652,12.413 -14.311,14.341c-6.865,2.34 -649.431,2.34 -656.296,0c-5.659,-1.928 -12.273,-8.556 -14.311,-14.341c-2.344,-6.655 -2.351,-585.392 -0.006,-592.272c1.87,-5.49 8.493,-12.245 13.97,-14.249M88,384v264h168h168v-264v-264h-168h-168v264M472,384v264h104h104v-264v-264h-104h-104v264M528,224v-24h48h48v24v24h-48h-48v-24M191.748,287.745l16.747,-16.748l56.501,56.502l56.502,56.501l-56.248,56.248l-56.247,56.247l-16.747,-16.747l-16.748,-16.747l39.492,-39.501l39.491,-39.5l-39.745,-39.754l-39.745,-39.754l16.747,-16.747M528,352v-24h48h48v24v24h-48h-48v-24"/></svg>

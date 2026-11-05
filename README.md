@@ -248,8 +248,8 @@ See [docs/overview/supported-ides.md](docs/overview/supported-ides.md) for the f
 
 | Script                        | Description                                                       |
 | ----------------------------- | ----------------------------------------------------------------- |
-| `npm run build`               | Copy SVGs + emit theme JSON and product-icon fonts for all styles |
-| `npm run build:clean`         | Wipe `icons/` and `themes/` then rebuild                          |
+| `npm run build`               | Rebuild product-icon glyphs, fonts and theme JSON for all styles  |
+| `npm run build:clean`         | Clear the product-icon outputs, then rebuild them                 |
 | `npm run build:solid`         | Build only the Solid style                                        |
 | `npm run build:duotone`       | Build only the Duotone style                                      |
 | `npm run build:jetbrains`     | Generate the JetBrains plugin sources                             |

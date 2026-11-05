@@ -21,9 +21,11 @@ export const styles = [
         // paths (left) to the actual on-disk filename (right). Applied after
         // categoryAlias.
         fileAlias: {
-            "Add Remove Delete/remove-01.svg": "Add Remove Delete/remove.svg",
-            "Add Remove Delete/cancel-01.svg": "Add Remove Delete/clear-01.svg",
-            "Add Remove Delete/cancel-square.svg": "Add Remove Delete/clear-square.svg",
+            // In this style "remove" is the X and "clear" is the minus, the reverse of
+            // the other styles, so each manifest name maps to the matching shape.
+            "Add Remove Delete/remove-01.svg": "Add Remove Delete/clear-01.svg",
+            "Add Remove Delete/cancel-01.svg": "Add Remove Delete/remove.svg",
+            "Add Remove Delete/cancel-square.svg": "Add Remove Delete/remove-square.svg",
         },
     },
     {
@@ -31,12 +33,15 @@ export const styles = [
         label: "Duotone",
         srcRoot: "Rounded/Duotone",
         enabled: true, // v1.1.0
+        // Product icon glyphs are one color, so the light second tone is dropped.
+        glyph: { dropFills: ["#D4D7E0"] },
     },
     {
         id: "twotone",
         label: "Twotone",
         srcRoot: "Rounded/Twotone",
         enabled: true, // v1.1.0
+        categoryAlias: { "Settings": "Setting" },
     },
     {
         id: "stroke",
@@ -49,6 +54,7 @@ export const styles = [
         label: "Bulk",
         srcRoot: "Rounded/Bulk",
         enabled: true, // v1.1.0
+        fileAlias: { "Add Remove Delete/cancel-square.svg": "Add Remove Delete/remove-square.svg" },
     },
     {
         id: "sharp-solid",
@@ -58,6 +64,7 @@ export const styles = [
         categoryAlias: {
             "Arrows (Round)": "Arrows",
             "Arrows (Sharp)": "Arrows",
+            "Game & Sports": "Game Sports",
         },
     },
     {
@@ -68,6 +75,7 @@ export const styles = [
         categoryAlias: {
             "Arrows (Round)": "Arrows",
             "Arrows (Sharp)": "Arrows",
+            "Game & Sports": "Game Sports",
         },
     },
 ];

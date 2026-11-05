@@ -38,11 +38,21 @@ Prerequisite: an unzipped copy of the upstream icon library. The default source 
 Override with `ICONS_SRC_ROOT=/path/to/25,000+ SVG icons npm run build`.
 
 ```sh
-npm run build           # build every enabled style (currently: solid)
-npm run build:clean     # wipe icons/ + themes/ and rebuild
-npm run build:solid     # build a specific style
+npm run build           # rebuild the product icon glyphs and fonts for every enabled style
+npm run build:clean     # clear the product icon outputs and rebuild them (file icons are kept)
 node scripts/build.mjs --style=solid --style=duotone   # build several
 ```
+
+What the build does and does not touch:
+
+- **Product icons** are rebuilt on every run. Each upstream SVG is drawn as designed and traced into one
+  filled outline, because an icon font can only hold single filled shapes. Strokes, even-odd holes and the
+  light second tone of the duotone style would otherwise disappear or turn into blobs. Duotone and twotone
+  therefore look like the stroke style in product icons, since a font glyph has one color.
+- **File icons** are not rebuilt unless you pass `--file-icons`. The solid file icons were replaced by hand in
+  v1.2.0, so a plain run must not overwrite them.
+- If the icon library or any icon it needs is missing, the build stops before writing anything. Icons that
+  are already committed count as present. Pass `--allow-missing` to build a partial set on purpose.
 
 Then in VS Code:
 

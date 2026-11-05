@@ -19,571 +19,571 @@
   ],
   "iconDefinitions": {
     "files": {
-      "fontCharacter": "\\F164",
+      "fontCharacter": "\\E000",
       "fontId": "chalii-product-icons-solid"
     },
     "search": {
-      "fontCharacter": "\\F11D",
+      "fontCharacter": "\\E001",
       "fontId": "chalii-product-icons-solid"
     },
     "search-view-icon": {
-      "fontCharacter": "\\F11E",
+      "fontCharacter": "\\E002",
       "fontId": "chalii-product-icons-solid"
     },
     "source-control": {
-      "fontCharacter": "\\F116",
+      "fontCharacter": "\\E003",
       "fontId": "chalii-product-icons-solid"
     },
     "source-control-view-icon": {
-      "fontCharacter": "\\F117",
+      "fontCharacter": "\\E004",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-alt": {
-      "fontCharacter": "\\F17D",
+      "fontCharacter": "\\E005",
       "fontId": "chalii-product-icons-solid"
     },
     "run-view-icon": {
-      "fontCharacter": "\\F123",
+      "fontCharacter": "\\E006",
       "fontId": "chalii-product-icons-solid"
     },
     "extensions": {
-      "fontCharacter": "\\F16B",
+      "fontCharacter": "\\E007",
       "fontId": "chalii-product-icons-solid"
     },
     "extensions-view-icon": {
-      "fontCharacter": "\\F16C",
+      "fontCharacter": "\\E008",
       "fontId": "chalii-product-icons-solid"
     },
     "account": {
-      "fontCharacter": "\\F1A3",
+      "fontCharacter": "\\E009",
       "fontId": "chalii-product-icons-solid"
     },
     "settings-gear": {
-      "fontCharacter": "\\F11C",
+      "fontCharacter": "\\E00A",
       "fontId": "chalii-product-icons-solid"
     },
     "settings-view-bar-icon": {
-      "fontCharacter": "\\F11B",
+      "fontCharacter": "\\E00B",
       "fontId": "chalii-product-icons-solid"
     },
     "chevron-up": {
-      "fontCharacter": "\\F192",
+      "fontCharacter": "\\E00C",
       "fontId": "chalii-product-icons-solid"
     },
     "chevron-down": {
-      "fontCharacter": "\\F195",
+      "fontCharacter": "\\E00D",
       "fontId": "chalii-product-icons-solid"
     },
     "chevron-left": {
-      "fontCharacter": "\\F194",
+      "fontCharacter": "\\E00E",
       "fontId": "chalii-product-icons-solid"
     },
     "chevron-right": {
-      "fontCharacter": "\\F193",
+      "fontCharacter": "\\E00F",
       "fontId": "chalii-product-icons-solid"
     },
     "arrow-up": {
-      "fontCharacter": "\\F19D",
+      "fontCharacter": "\\E010",
       "fontId": "chalii-product-icons-solid"
     },
     "arrow-down": {
-      "fontCharacter": "\\F1A0",
+      "fontCharacter": "\\E011",
       "fontId": "chalii-product-icons-solid"
     },
     "arrow-left": {
-      "fontCharacter": "\\F19F",
+      "fontCharacter": "\\E012",
       "fontId": "chalii-product-icons-solid"
     },
     "arrow-right": {
-      "fontCharacter": "\\F19E",
+      "fontCharacter": "\\E013",
       "fontId": "chalii-product-icons-solid"
     },
     "fold": {
-      "fontCharacter": "\\F162",
+      "fontCharacter": "\\E014",
       "fontId": "chalii-product-icons-solid"
     },
     "unfold": {
-      "fontCharacter": "\\F108",
+      "fontCharacter": "\\E015",
       "fontId": "chalii-product-icons-solid"
     },
     "expand-all": {
-      "fontCharacter": "\\F16E",
+      "fontCharacter": "\\E016",
       "fontId": "chalii-product-icons-solid"
     },
     "collapse-all": {
-      "fontCharacter": "\\F184",
+      "fontCharacter": "\\E017",
       "fontId": "chalii-product-icons-solid"
     },
     "add": {
-      "fontCharacter": "\\F1A2",
+      "fontCharacter": "\\E018",
       "fontId": "chalii-product-icons-solid"
     },
     "plus": {
-      "fontCharacter": "\\F12D",
+      "fontCharacter": "\\E019",
       "fontId": "chalii-product-icons-solid"
     },
     "remove": {
-      "fontCharacter": "\\F127",
+      "fontCharacter": "\\E01A",
       "fontId": "chalii-product-icons-solid"
     },
     "close": {
-      "fontCharacter": "\\F189",
+      "fontCharacter": "\\E01B",
       "fontId": "chalii-product-icons-solid"
     },
     "close-all": {
-      "fontCharacter": "\\F18A",
+      "fontCharacter": "\\E01C",
       "fontId": "chalii-product-icons-solid"
     },
     "trash": {
-      "fontCharacter": "\\F109",
+      "fontCharacter": "\\E01D",
       "fontId": "chalii-product-icons-solid"
     },
     "clear-all": {
-      "fontCharacter": "\\F18C",
+      "fontCharacter": "\\E01E",
       "fontId": "chalii-product-icons-solid"
     },
     "check": {
-      "fontCharacter": "\\F196",
+      "fontCharacter": "\\E01F",
       "fontId": "chalii-product-icons-solid"
     },
     "pass": {
-      "fontCharacter": "\\F135",
+      "fontCharacter": "\\E020",
       "fontId": "chalii-product-icons-solid"
     },
     "error": {
-      "fontCharacter": "\\F16F",
+      "fontCharacter": "\\E021",
       "fontId": "chalii-product-icons-solid"
     },
     "warning": {
-      "fontCharacter": "\\F104",
+      "fontCharacter": "\\E022",
       "fontId": "chalii-product-icons-solid"
     },
     "info": {
-      "fontCharacter": "\\F14E",
+      "fontCharacter": "\\E023",
       "fontId": "chalii-product-icons-solid"
     },
     "question": {
-      "fontCharacter": "\\F12C",
+      "fontCharacter": "\\E024",
       "fontId": "chalii-product-icons-solid"
     },
     "new-file": {
-      "fontCharacter": "\\F13B",
+      "fontCharacter": "\\E025",
       "fontId": "chalii-product-icons-solid"
     },
     "new-folder": {
-      "fontCharacter": "\\F13A",
+      "fontCharacter": "\\E026",
       "fontId": "chalii-product-icons-solid"
     },
     "save": {
-      "fontCharacter": "\\F122",
+      "fontCharacter": "\\E027",
       "fontId": "chalii-product-icons-solid"
     },
     "file": {
-      "fontCharacter": "\\F165",
+      "fontCharacter": "\\E028",
       "fontId": "chalii-product-icons-solid"
     },
     "folder": {
-      "fontCharacter": "\\F15F",
+      "fontCharacter": "\\E029",
       "fontId": "chalii-product-icons-solid"
     },
     "folder-opened": {
-      "fontCharacter": "\\F160",
+      "fontCharacter": "\\E02A",
       "fontId": "chalii-product-icons-solid"
     },
     "edit": {
-      "fontCharacter": "\\F171",
+      "fontCharacter": "\\E02B",
       "fontId": "chalii-product-icons-solid"
     },
     "pencil": {
-      "fontCharacter": "\\F134",
+      "fontCharacter": "\\E02C",
       "fontId": "chalii-product-icons-solid"
     },
     "copy": {
-      "fontCharacter": "\\F17F",
+      "fontCharacter": "\\E02D",
       "fontId": "chalii-product-icons-solid"
     },
     "comment": {
-      "fontCharacter": "\\F182",
+      "fontCharacter": "\\E02E",
       "fontId": "chalii-product-icons-solid"
     },
     "eye": {
-      "fontCharacter": "\\F169",
+      "fontCharacter": "\\E02F",
       "fontId": "chalii-product-icons-solid"
     },
     "eye-closed": {
-      "fontCharacter": "\\F16A",
+      "fontCharacter": "\\E030",
       "fontId": "chalii-product-icons-solid"
     },
     "git-branch": {
-      "fontCharacter": "\\F15D",
+      "fontCharacter": "\\E031",
       "fontId": "chalii-product-icons-solid"
     },
     "git-commit": {
-      "fontCharacter": "\\F15C",
+      "fontCharacter": "\\E032",
       "fontId": "chalii-product-icons-solid"
     },
     "git-merge": {
-      "fontCharacter": "\\F15A",
+      "fontCharacter": "\\E033",
       "fontId": "chalii-product-icons-solid"
     },
     "git-compare": {
-      "fontCharacter": "\\F15B",
+      "fontCharacter": "\\E034",
       "fontId": "chalii-product-icons-solid"
     },
     "git-pull-request": {
-      "fontCharacter": "\\F157",
+      "fontCharacter": "\\E035",
       "fontId": "chalii-product-icons-solid"
     },
     "github": {
-      "fontCharacter": "\\F156",
+      "fontCharacter": "\\E036",
       "fontId": "chalii-product-icons-solid"
     },
     "bug": {
-      "fontCharacter": "\\F199",
+      "fontCharacter": "\\E037",
       "fontId": "chalii-product-icons-solid"
     },
     "play": {
-      "fontCharacter": "\\F12E",
+      "fontCharacter": "\\E038",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-start": {
-      "fontCharacter": "\\F178",
+      "fontCharacter": "\\E039",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-continue": {
-      "fontCharacter": "\\F17C",
+      "fontCharacter": "\\E03A",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-pause": {
-      "fontCharacter": "\\F17A",
+      "fontCharacter": "\\E03B",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-stop": {
-      "fontCharacter": "\\F174",
+      "fontCharacter": "\\E03C",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-restart": {
-      "fontCharacter": "\\F179",
+      "fontCharacter": "\\E03D",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-disconnect": {
-      "fontCharacter": "\\F17B",
+      "fontCharacter": "\\E03E",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-step-into": {
-      "fontCharacter": "\\F177",
+      "fontCharacter": "\\E03F",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-step-out": {
-      "fontCharacter": "\\F176",
+      "fontCharacter": "\\E040",
       "fontId": "chalii-product-icons-solid"
     },
     "debug-step-over": {
-      "fontCharacter": "\\F175",
+      "fontCharacter": "\\E041",
       "fontId": "chalii-product-icons-solid"
     },
     "stop": {
-      "fontCharacter": "\\F112",
+      "fontCharacter": "\\E042",
       "fontId": "chalii-product-icons-solid"
     },
     "stop-circle": {
-      "fontCharacter": "\\F113",
+      "fontCharacter": "\\E043",
       "fontId": "chalii-product-icons-solid"
     },
     "record": {
-      "fontCharacter": "\\F12A",
+      "fontCharacter": "\\E044",
       "fontId": "chalii-product-icons-solid"
     },
     "record-keys": {
-      "fontCharacter": "\\F12B",
+      "fontCharacter": "\\E045",
       "fontId": "chalii-product-icons-solid"
     },
     "terminal": {
-      "fontCharacter": "\\F10D",
+      "fontCharacter": "\\E046",
       "fontId": "chalii-product-icons-solid"
     },
     "terminal-bash": {
-      "fontCharacter": "\\F10E",
+      "fontCharacter": "\\E047",
       "fontId": "chalii-product-icons-solid"
     },
     "bell": {
-      "fontCharacter": "\\F19B",
+      "fontCharacter": "\\E048",
       "fontId": "chalii-product-icons-solid"
     },
     "bell-dot": {
-      "fontCharacter": "\\F19C",
+      "fontCharacter": "\\E049",
       "fontId": "chalii-product-icons-solid"
     },
     "heart": {
-      "fontCharacter": "\\F153",
+      "fontCharacter": "\\E04A",
       "fontId": "chalii-product-icons-solid"
     },
     "star-empty": {
-      "fontCharacter": "\\F115",
+      "fontCharacter": "\\E04B",
       "fontId": "chalii-product-icons-solid"
     },
     "star-full": {
-      "fontCharacter": "\\F114",
+      "fontCharacter": "\\E04C",
       "fontId": "chalii-product-icons-solid"
     },
     "bookmark": {
-      "fontCharacter": "\\F19A",
+      "fontCharacter": "\\E04D",
       "fontId": "chalii-product-icons-solid"
     },
     "tag": {
-      "fontCharacter": "\\F110",
+      "fontCharacter": "\\E04E",
       "fontId": "chalii-product-icons-solid"
     },
     "filter": {
-      "fontCharacter": "\\F163",
+      "fontCharacter": "\\E04F",
       "fontId": "chalii-product-icons-solid"
     },
     "refresh": {
-      "fontCharacter": "\\F129",
+      "fontCharacter": "\\E050",
       "fontId": "chalii-product-icons-solid"
     },
     "sync": {
-      "fontCharacter": "\\F111",
+      "fontCharacter": "\\E051",
       "fontId": "chalii-product-icons-solid"
     },
     "lock": {
-      "fontCharacter": "\\F143",
+      "fontCharacter": "\\E052",
       "fontId": "chalii-product-icons-solid"
     },
     "unlock": {
-      "fontCharacter": "\\F107",
+      "fontCharacter": "\\E053",
       "fontId": "chalii-product-icons-solid"
     },
     "menu": {
-      "fontCharacter": "\\F140",
+      "fontCharacter": "\\E054",
       "fontId": "chalii-product-icons-solid"
     },
     "ellipsis": {
-      "fontCharacter": "\\F170",
+      "fontCharacter": "\\E055",
       "fontId": "chalii-product-icons-solid"
     },
     "kebab-vertical": {
-      "fontCharacter": "\\F14D",
+      "fontCharacter": "\\E056",
       "fontId": "chalii-product-icons-solid"
     },
     "home": {
-      "fontCharacter": "\\F151",
+      "fontCharacter": "\\E057",
       "fontId": "chalii-product-icons-solid"
     },
     "globe": {
-      "fontCharacter": "\\F155",
+      "fontCharacter": "\\E058",
       "fontId": "chalii-product-icons-solid"
     },
     "key": {
-      "fontCharacter": "\\F14C",
+      "fontCharacter": "\\E059",
       "fontId": "chalii-product-icons-solid"
     },
     "gear": {
-      "fontCharacter": "\\F15E",
+      "fontCharacter": "\\E05A",
       "fontId": "chalii-product-icons-solid"
     },
     "tools": {
-      "fontCharacter": "\\F10A",
+      "fontCharacter": "\\E05B",
       "fontId": "chalii-product-icons-solid"
     },
     "lightbulb": {
-      "fontCharacter": "\\F147",
+      "fontCharacter": "\\E05C",
       "fontId": "chalii-product-icons-solid"
     },
     "pin": {
-      "fontCharacter": "\\F131",
+      "fontCharacter": "\\E05D",
       "fontId": "chalii-product-icons-solid"
     },
     "pinned": {
-      "fontCharacter": "\\F130",
+      "fontCharacter": "\\E05E",
       "fontId": "chalii-product-icons-solid"
     },
     "unpin": {
-      "fontCharacter": "\\F106",
+      "fontCharacter": "\\E05F",
       "fontId": "chalii-product-icons-solid"
     },
     "clock": {
-      "fontCharacter": "\\F18B",
+      "fontCharacter": "\\E060",
       "fontId": "chalii-product-icons-solid"
     },
     "history": {
-      "fontCharacter": "\\F152",
+      "fontCharacter": "\\E061",
       "fontId": "chalii-product-icons-solid"
     },
     "calendar": {
-      "fontCharacter": "\\F198",
+      "fontCharacter": "\\E062",
       "fontId": "chalii-product-icons-solid"
     },
     "layout-sidebar-left": {
-      "fontCharacter": "\\F14B",
+      "fontCharacter": "\\E063",
       "fontId": "chalii-product-icons-solid"
     },
     "layout-sidebar-right": {
-      "fontCharacter": "\\F14A",
+      "fontCharacter": "\\E064",
       "fontId": "chalii-product-icons-solid"
     },
     "chrome-close": {
-      "fontCharacter": "\\F191",
+      "fontCharacter": "\\E065",
       "fontId": "chalii-product-icons-solid"
     },
     "chrome-minimize": {
-      "fontCharacter": "\\F18F",
+      "fontCharacter": "\\E066",
       "fontId": "chalii-product-icons-solid"
     },
     "chrome-maximize": {
-      "fontCharacter": "\\F190",
+      "fontCharacter": "\\E067",
       "fontId": "chalii-product-icons-solid"
     },
     "chrome-restore": {
-      "fontCharacter": "\\F18E",
+      "fontCharacter": "\\E068",
       "fontId": "chalii-product-icons-solid"
     },
     "screen-full": {
-      "fontCharacter": "\\F121",
+      "fontCharacter": "\\E069",
       "fontId": "chalii-product-icons-solid"
     },
     "screen-normal": {
-      "fontCharacter": "\\F120",
+      "fontCharacter": "\\E06A",
       "fontId": "chalii-product-icons-solid"
     },
     "cloud": {
-      "fontCharacter": "\\F186",
+      "fontCharacter": "\\E06B",
       "fontId": "chalii-product-icons-solid"
     },
     "cloud-download": {
-      "fontCharacter": "\\F188",
+      "fontCharacter": "\\E06C",
       "fontId": "chalii-product-icons-solid"
     },
     "cloud-upload": {
-      "fontCharacter": "\\F187",
+      "fontCharacter": "\\E06D",
       "fontId": "chalii-product-icons-solid"
     },
     "desktop-download": {
-      "fontCharacter": "\\F173",
+      "fontCharacter": "\\E06E",
       "fontId": "chalii-product-icons-solid"
     },
     "archive": {
-      "fontCharacter": "\\F1A1",
+      "fontCharacter": "\\E06F",
       "fontId": "chalii-product-icons-solid"
     },
     "package": {
-      "fontCharacter": "\\F136",
+      "fontCharacter": "\\E070",
       "fontId": "chalii-product-icons-solid"
     },
     "repo": {
-      "fontCharacter": "\\F125",
+      "fontCharacter": "\\E071",
       "fontId": "chalii-product-icons-solid"
     },
     "library": {
-      "fontCharacter": "\\F148",
+      "fontCharacter": "\\E072",
       "fontId": "chalii-product-icons-solid"
     },
     "code": {
-      "fontCharacter": "\\F185",
+      "fontCharacter": "\\E073",
       "fontId": "chalii-product-icons-solid"
     },
     "go-to-file": {
-      "fontCharacter": "\\F154",
+      "fontCharacter": "\\E074",
       "fontId": "chalii-product-icons-solid"
     },
     "file-code": {
-      "fontCharacter": "\\F167",
+      "fontCharacter": "\\E075",
       "fontId": "chalii-product-icons-solid"
     },
     "export": {
-      "fontCharacter": "\\F16D",
+      "fontCharacter": "\\E076",
       "fontId": "chalii-product-icons-solid"
     },
     "import": {
-      "fontCharacter": "\\F150",
+      "fontCharacter": "\\E077",
       "fontId": "chalii-product-icons-solid"
     },
     "discard": {
-      "fontCharacter": "\\F172",
+      "fontCharacter": "\\E078",
       "fontId": "chalii-product-icons-solid"
     },
     "link": {
-      "fontCharacter": "\\F145",
+      "fontCharacter": "\\E079",
       "fontId": "chalii-product-icons-solid"
     },
     "link-external": {
-      "fontCharacter": "\\F146",
+      "fontCharacter": "\\E07A",
       "fontId": "chalii-product-icons-solid"
     },
     "share": {
-      "fontCharacter": "\\F11A",
+      "fontCharacter": "\\E07B",
       "fontId": "chalii-product-icons-solid"
     },
     "mail": {
-      "fontCharacter": "\\F141",
+      "fontCharacter": "\\E07C",
       "fontId": "chalii-product-icons-solid"
     },
     "mail-read": {
-      "fontCharacter": "\\F142",
+      "fontCharacter": "\\E07D",
       "fontId": "chalii-product-icons-solid"
     },
     "inbox": {
-      "fontCharacter": "\\F14F",
+      "fontCharacter": "\\E07E",
       "fontId": "chalii-product-icons-solid"
     },
     "reply": {
-      "fontCharacter": "\\F126",
+      "fontCharacter": "\\E07F",
       "fontId": "chalii-product-icons-solid"
     },
     "comment-discussion": {
-      "fontCharacter": "\\F183",
+      "fontCharacter": "\\E080",
       "fontId": "chalii-product-icons-solid"
     },
     "note": {
-      "fontCharacter": "\\F139",
+      "fontCharacter": "\\E081",
       "fontId": "chalii-product-icons-solid"
     },
     "notebook": {
-      "fontCharacter": "\\F138",
+      "fontCharacter": "\\E082",
       "fontId": "chalii-product-icons-solid"
     },
     "output": {
-      "fontCharacter": "\\F137",
+      "fontCharacter": "\\E083",
       "fontId": "chalii-product-icons-solid"
     },
     "console": {
-      "fontCharacter": "\\F180",
+      "fontCharacter": "\\E084",
       "fontId": "chalii-product-icons-solid"
     },
     "sign-in": {
-      "fontCharacter": "\\F119",
+      "fontCharacter": "\\E085",
       "fontId": "chalii-product-icons-solid"
     },
     "sign-out": {
-      "fontCharacter": "\\F118",
+      "fontCharacter": "\\E086",
       "fontId": "chalii-product-icons-solid"
     },
     "feedback": {
-      "fontCharacter": "\\F168",
+      "fontCharacter": "\\E087",
       "fontId": "chalii-product-icons-solid"
     },
     "thumbsup": {
-      "fontCharacter": "\\F10B",
+      "fontCharacter": "\\E088",
       "fontId": "chalii-product-icons-solid"
     },
     "thumbsdown": {
-      "fontCharacter": "\\F10C",
+      "fontCharacter": "\\E089",
       "fontId": "chalii-product-icons-solid"
     },
     "loading": {
-      "fontCharacter": "\\F144",
+      "fontCharacter": "\\E08A",
       "fontId": "chalii-product-icons-solid"
     },
     "search-stop": {
-      "fontCharacter": "\\F11F",
+      "fontCharacter": "\\E08B",
       "fontId": "chalii-product-icons-solid"
     },
     "zoom-in": {
-      "fontCharacter": "\\F102",
+      "fontCharacter": "\\E08C",
       "fontId": "chalii-product-icons-solid"
     },
     "zoom-out": {
-      "fontCharacter": "\\F101",
+      "fontCharacter": "\\E08D",
       "fontId": "chalii-product-icons-solid"
     }
   }
