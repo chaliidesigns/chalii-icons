@@ -51,6 +51,7 @@ What the build does and does not touch:
   therefore look like the stroke style in product icons, since a font glyph has one color.
 - **File icons** are not rebuilt unless you pass `--file-icons`. The solid file icons were replaced by hand in
   v1.2.0, so a plain run must not overwrite them.
+- **File icon themes** each refer to their own style's icons. `npm run check:file-icons` fails if an entry points at the filled Solid icon instead, which makes a style show filled icons next to outlined ones. `node scripts/repoint-file-icons.mjs` fixes the paths. Brand logos (python, github, java and so on) only exist filled and are left alone.
 - If the icon library or any icon it needs is missing, the build stops before writing anything. Icons that
   are already committed count as present. Pass `--allow-missing` to build a partial set on purpose.
 

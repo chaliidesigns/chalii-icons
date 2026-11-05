@@ -338,112 +338,112 @@
       "iconPath": "../icons/solid/file-icons/light/dart.svg"
     },
     "_javascript": {
-      "iconPath": "../icons/solid/file-icons/dark/javascript.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/javascript.svg"
     },
     "_javascript_light": {
-      "iconPath": "../icons/solid/file-icons/light/javascript.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/javascript.svg"
     },
     "_typescript": {
-      "iconPath": "../icons/solid/file-icons/dark/typescript.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/typescript.svg"
     },
     "_typescript_light": {
-      "iconPath": "../icons/solid/file-icons/light/typescript.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/typescript.svg"
     },
     "_bash": {
-      "iconPath": "../icons/solid/file-icons/dark/bash.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/bash.svg"
     },
     "_bash_light": {
-      "iconPath": "../icons/solid/file-icons/light/bash.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/bash.svg"
     },
     "_zsh": {
-      "iconPath": "../icons/solid/file-icons/dark/zsh.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/zsh.svg"
     },
     "_zsh_light": {
-      "iconPath": "../icons/solid/file-icons/light/zsh.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/zsh.svg"
     },
     "_fish": {
-      "iconPath": "../icons/solid/file-icons/dark/fish.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/fish.svg"
     },
     "_fish_light": {
-      "iconPath": "../icons/solid/file-icons/light/fish.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/fish.svg"
     },
     "_powershell": {
-      "iconPath": "../icons/solid/file-icons/dark/powershell.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/powershell.svg"
     },
     "_powershell_light": {
-      "iconPath": "../icons/solid/file-icons/light/powershell.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/powershell.svg"
     },
     "_nushell": {
-      "iconPath": "../icons/solid/file-icons/dark/nushell.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/nushell.svg"
     },
     "_nushell_light": {
-      "iconPath": "../icons/solid/file-icons/light/nushell.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/nushell.svg"
     },
     "_batch": {
-      "iconPath": "../icons/solid/file-icons/dark/batch.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/batch.svg"
     },
     "_batch_light": {
-      "iconPath": "../icons/solid/file-icons/light/batch.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/batch.svg"
     },
     "_sql": {
-      "iconPath": "../icons/solid/file-icons/dark/sql.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/sql.svg"
     },
     "_sql_light": {
-      "iconPath": "../icons/solid/file-icons/light/sql.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/sql.svg"
     },
     "_toml": {
-      "iconPath": "../icons/solid/file-icons/dark/toml.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/toml.svg"
     },
     "_toml_light": {
-      "iconPath": "../icons/solid/file-icons/light/toml.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/toml.svg"
     },
     "_tsv": {
-      "iconPath": "../icons/solid/file-icons/dark/tsv.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/tsv.svg"
     },
     "_tsv_light": {
-      "iconPath": "../icons/solid/file-icons/light/tsv.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/tsv.svg"
     },
     "_binary": {
-      "iconPath": "../icons/solid/file-icons/dark/binary.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/binary.svg"
     },
     "_binary_light": {
-      "iconPath": "../icons/solid/file-icons/light/binary.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/binary.svg"
     },
     "_env": {
-      "iconPath": "../icons/solid/file-icons/dark/env.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/env.svg"
     },
     "_env_light": {
-      "iconPath": "../icons/solid/file-icons/light/env.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/env.svg"
     },
     "_dotenv": {
-      "iconPath": "../icons/solid/file-icons/dark/dotenv.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/dotenv.svg"
     },
     "_dotenv_light": {
-      "iconPath": "../icons/solid/file-icons/light/dotenv.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/dotenv.svg"
     },
     "_editorconfig": {
-      "iconPath": "../icons/solid/file-icons/dark/editorconfig.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/editorconfig.svg"
     },
     "_editorconfig_light": {
-      "iconPath": "../icons/solid/file-icons/light/editorconfig.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/editorconfig.svg"
     },
     "_gitignore": {
-      "iconPath": "../icons/solid/file-icons/dark/gitignore.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/gitignore.svg"
     },
     "_gitignore_light": {
-      "iconPath": "../icons/solid/file-icons/light/gitignore.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/gitignore.svg"
     },
     "_gitattributes": {
-      "iconPath": "../icons/solid/file-icons/dark/gitattributes.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/gitattributes.svg"
     },
     "_gitattributes_light": {
-      "iconPath": "../icons/solid/file-icons/light/gitattributes.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/gitattributes.svg"
     },
     "_gitmodules": {
-      "iconPath": "../icons/solid/file-icons/dark/gitmodules.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/gitmodules.svg"
     },
     "_gitmodules_light": {
-      "iconPath": "../icons/solid/file-icons/light/gitmodules.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/gitmodules.svg"
     },
     "_npmignore": {
       "iconPath": "../icons/solid/file-icons/dark/npmignore.svg"
@@ -452,304 +452,304 @@
       "iconPath": "../icons/solid/file-icons/light/npmignore.svg"
     },
     "_readme": {
-      "iconPath": "../icons/solid/file-icons/dark/readme.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/readme.svg"
     },
     "_readme_light": {
-      "iconPath": "../icons/solid/file-icons/light/readme.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/readme.svg"
     },
     "_changelog": {
-      "iconPath": "../icons/solid/file-icons/dark/changelog.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/changelog.svg"
     },
     "_changelog_light": {
-      "iconPath": "../icons/solid/file-icons/light/changelog.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/changelog.svg"
     },
     "_notice": {
-      "iconPath": "../icons/solid/file-icons/dark/notice.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/notice.svg"
     },
     "_notice_light": {
-      "iconPath": "../icons/solid/file-icons/light/notice.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/notice.svg"
     },
     "_authors": {
-      "iconPath": "../icons/solid/file-icons/dark/authors.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/authors.svg"
     },
     "_authors_light": {
-      "iconPath": "../icons/solid/file-icons/light/authors.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/authors.svg"
     },
     "_contributing": {
-      "iconPath": "../icons/solid/file-icons/dark/contributing.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/contributing.svg"
     },
     "_contributing_light": {
-      "iconPath": "../icons/solid/file-icons/light/contributing.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/contributing.svg"
     },
     "_code_of_conduct": {
-      "iconPath": "../icons/solid/file-icons/dark/code-of-conduct.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/code-of-conduct.svg"
     },
     "_code_of_conduct_light": {
-      "iconPath": "../icons/solid/file-icons/light/code-of-conduct.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/code-of-conduct.svg"
     },
     "_security": {
-      "iconPath": "../icons/solid/file-icons/dark/security.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/security.svg"
     },
     "_security_light": {
-      "iconPath": "../icons/solid/file-icons/light/security.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/security.svg"
     },
     "_todo": {
-      "iconPath": "../icons/solid/file-icons/dark/todo.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/todo.svg"
     },
     "_todo_light": {
-      "iconPath": "../icons/solid/file-icons/light/todo.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/todo.svg"
     },
     "_next": {
-      "iconPath": "../icons/solid/file-icons/dark/next.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/next.svg"
     },
     "_next_light": {
-      "iconPath": "../icons/solid/file-icons/light/next.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/next.svg"
     },
     "_folder_src": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-src.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-src.svg"
     },
     "_folder_src_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-src.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-src.svg"
     },
     "_folder_app": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-app.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-app.svg"
     },
     "_folder_app_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-app.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-app.svg"
     },
     "_folder_pages": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-pages.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-pages.svg"
     },
     "_folder_pages_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-pages.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-pages.svg"
     },
     "_folder_routes": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-routes.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-routes.svg"
     },
     "_folder_routes_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-routes.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-routes.svg"
     },
     "_folder_components": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-components.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-components.svg"
     },
     "_folder_components_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-components.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-components.svg"
     },
     "_folder_scripts": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-scripts.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-scripts.svg"
     },
     "_folder_scripts_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-scripts.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-scripts.svg"
     },
     "_folder_assets": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-assets.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-assets.svg"
     },
     "_folder_assets_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-assets.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-assets.svg"
     },
     "_folder_images": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-images.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-images.svg"
     },
     "_folder_images_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-images.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-images.svg"
     },
     "_folder_fonts": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-fonts.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-fonts.svg"
     },
     "_folder_fonts_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-fonts.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-fonts.svg"
     },
     "_folder_icons": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-icons.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-icons.svg"
     },
     "_folder_icons_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-icons.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-icons.svg"
     },
     "_folder_themes": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-themes.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-themes.svg"
     },
     "_folder_themes_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-themes.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-themes.svg"
     },
     "_folder_tests": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-tests.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-tests.svg"
     },
     "_folder_tests_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-tests.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-tests.svg"
     },
     "_folder_coverage": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-coverage.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-coverage.svg"
     },
     "_folder_coverage_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-coverage.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-coverage.svg"
     },
     "_folder_docs": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-docs.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-docs.svg"
     },
     "_folder_docs_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-docs.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-docs.svg"
     },
     "_folder_public": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-public.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-public.svg"
     },
     "_folder_public_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-public.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-public.svg"
     },
     "_folder_styles": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-styles.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-styles.svg"
     },
     "_folder_styles_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-styles.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-styles.svg"
     },
     "_folder_root": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-root.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-root.svg"
     },
     "_folder_root_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-root.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-root.svg"
     },
     "_folder_cache": {
-      "iconPath": "../icons/solid/file-icons/dark/folder-cache.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/folder-cache.svg"
     },
     "_folder_cache_light": {
-      "iconPath": "../icons/solid/file-icons/light/folder-cache.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/folder-cache.svg"
     },
     "_word": {
-      "iconPath": "../icons/solid/file-icons/dark/word.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/word.svg"
     },
     "_word_light": {
-      "iconPath": "../icons/solid/file-icons/light/word.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/word.svg"
     },
     "_excel": {
-      "iconPath": "../icons/solid/file-icons/dark/excel.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/excel.svg"
     },
     "_excel_light": {
-      "iconPath": "../icons/solid/file-icons/light/excel.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/excel.svg"
     },
     "_powerpoint": {
-      "iconPath": "../icons/solid/file-icons/dark/powerpoint.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/powerpoint.svg"
     },
     "_powerpoint_light": {
-      "iconPath": "../icons/solid/file-icons/light/powerpoint.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/powerpoint.svg"
     },
     "_eps": {
-      "iconPath": "../icons/solid/file-icons/dark/eps.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/eps.svg"
     },
     "_eps_light": {
-      "iconPath": "../icons/solid/file-icons/light/eps.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/eps.svg"
     },
     "_vector": {
-      "iconPath": "../icons/solid/file-icons/dark/vector.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/vector.svg"
     },
     "_vector_light": {
-      "iconPath": "../icons/solid/file-icons/light/vector.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/vector.svg"
     },
     "_png_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/png-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/png-icon.svg"
     },
     "_png_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/png-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/png-icon.svg"
     },
     "_jpg_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/jpg-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/jpg-icon.svg"
     },
     "_jpg_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/jpg-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/jpg-icon.svg"
     },
     "_midi": {
-      "iconPath": "../icons/solid/file-icons/dark/midi.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/midi.svg"
     },
     "_midi_light": {
-      "iconPath": "../icons/solid/file-icons/light/midi.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/midi.svg"
     },
     "_aiff": {
-      "iconPath": "../icons/solid/file-icons/dark/aiff.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/aiff.svg"
     },
     "_aiff_light": {
-      "iconPath": "../icons/solid/file-icons/light/aiff.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/aiff.svg"
     },
     "_wav_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/wav-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/wav-icon.svg"
     },
     "_wav_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/wav-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/wav-icon.svg"
     },
     "_mp3_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/mp3-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/mp3-icon.svg"
     },
     "_mp3_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/mp3-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/mp3-icon.svg"
     },
     "_waveform": {
-      "iconPath": "../icons/solid/file-icons/dark/waveform.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/waveform.svg"
     },
     "_waveform_light": {
-      "iconPath": "../icons/solid/file-icons/light/waveform.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/waveform.svg"
     },
     "_mp4_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/mp4-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/mp4-icon.svg"
     },
     "_mp4_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/mp4-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/mp4-icon.svg"
     },
     "_mov_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/mov-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/mov-icon.svg"
     },
     "_mov_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/mov-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/mov-icon.svg"
     },
     "_zip_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/zip-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/zip-icon.svg"
     },
     "_zip_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/zip-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/zip-icon.svg"
     },
     "_tex": {
-      "iconPath": "../icons/solid/file-icons/dark/tex.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/tex.svg"
     },
     "_tex_light": {
-      "iconPath": "../icons/solid/file-icons/light/tex.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/tex.svg"
     },
     "_xml_icon": {
-      "iconPath": "../icons/solid/file-icons/dark/xml-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/xml-icon.svg"
     },
     "_xml_icon_light": {
-      "iconPath": "../icons/solid/file-icons/light/xml-icon.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/xml-icon.svg"
     },
     "_odf": {
-      "iconPath": "../icons/solid/file-icons/dark/odf.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/odf.svg"
     },
     "_odf_light": {
-      "iconPath": "../icons/solid/file-icons/light/odf.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/odf.svg"
     },
     "_shield": {
-      "iconPath": "../icons/solid/file-icons/dark/shield.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/shield.svg"
     },
     "_shield_light": {
-      "iconPath": "../icons/solid/file-icons/light/shield.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/shield.svg"
     },
     "_certificate": {
-      "iconPath": "../icons/solid/file-icons/dark/certificate.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/certificate.svg"
     },
     "_certificate_light": {
-      "iconPath": "../icons/solid/file-icons/light/certificate.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/certificate.svg"
     },
     "_contract": {
-      "iconPath": "../icons/solid/file-icons/dark/contract.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/contract.svg"
     },
     "_contract_light": {
-      "iconPath": "../icons/solid/file-icons/light/contract.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/contract.svg"
     },
     "_user_file": {
-      "iconPath": "../icons/solid/file-icons/dark/user-file.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/user-file.svg"
     },
     "_user_file_light": {
-      "iconPath": "../icons/solid/file-icons/light/user-file.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/user-file.svg"
     },
     "_music_file": {
-      "iconPath": "../icons/solid/file-icons/dark/music-file.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/dark/music-file.svg"
     },
     "_music_file_light": {
-      "iconPath": "../icons/solid/file-icons/light/music-file.svg"
+      "iconPath": "../icons/sharp-stroke/file-icons/light/music-file.svg"
     }
   },
   "file": "_file",

@@ -15,6 +15,7 @@ All notable changes to **Makinda Icons** will be documented in this file.
 - Product icons in the solid and sharp solid styles lost the detail inside shapes, such as the check in a circle, the exclamation mark and the envelope flap. Those details are back.
 - In the solid style the `close` and `remove` icons were swapped. `close` is an X again and `remove` is a minus. `close-all` now shows an X.
 - Twotone settings, gear and tools icons, the extensions icon in the sharp styles and `close-all` in bulk were missing because of folder names that differ in the icon library. They now resolve.
+- The file icon themes for stroke, duotone, twotone, bulk, sharp solid and sharp stroke pointed 68 icons at the filled Solid icons, so each style showed filled icons next to its own outlined ones. Shell and config files, special folders, document and media types and more now use their own style's icons. Brand logos such as python, github and java only exist filled and stay filled. `npm run check:file-icons` catches this from now on.
 - The icon build no longer overwrites the committed file icons unless you pass `--file-icons`, and it stops before writing if the icon library is missing.
 
 ## [1.1.0] — 2026-05-06
