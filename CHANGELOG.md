@@ -2,6 +2,16 @@
 
 All notable changes to **Makinda Icons** will be documented in this file.
 
+## [Unreleased]
+
+### Fixed
+
+- Product icon themes in the stroke, duotone, twotone and sharp stroke styles showed filled blobs, blank spots and hairlines instead of icons, because strokes cannot be stored in an icon font. They are now traced into proper outlines. The duotone and twotone product icons show the stroke shapes, since a font glyph has one color.
+- Product icons in the solid and sharp solid styles lost the detail inside shapes, such as the check in a circle, the exclamation mark and the envelope flap. Those details are back.
+- In the solid style the `close` and `remove` icons were swapped. `close` is an X again and `remove` is a minus. `close-all` now shows an X.
+- Twotone settings, gear and tools icons, the extensions icon in the sharp styles and `close-all` in bulk were missing because of folder names that differ in the icon library. They now resolve.
+- The icon build no longer overwrites the committed file icons unless you pass `--file-icons`, and it stops before writing if the icon library is missing.
+
 ## [1.1.0] — 2026-05-06
 
 ### Added
