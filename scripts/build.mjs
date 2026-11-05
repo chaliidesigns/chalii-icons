@@ -73,7 +73,7 @@ function preflight() {
         const committed = (kind, name) => fs.existsSync(path.join(repoRoot, "icons", style.id, kind === "file" ? "file-icons/dark" : "product-icons", `${name}.svg`));
         const absent = [
             ...(withFileIcons ? fileIcons : []).filter((i) => !fs.existsSync(resolveSrc(style, i.src)) && !committed("file", i.name)).map((i) => i.src),
-            ...productIcons.filter((i) => !fs.existsSync(resolveSrc(style, i.src)) && !committed("product", i.id)).map((i) => i.src),
+            ...productIcons.filter((i) => !i.svg && !fs.existsSync(resolveSrc(style, i.src)) && !committed("product", i.id)).map((i) => i.src),
         ];
         if (absent.length) {
             problems.push(`${style.id}: ${absent.length} source icon(s) missing, for example ${absent.slice(0, 3).join(", ")}`);
@@ -238,8 +238,12 @@ async function buildStyle(style) {
     const validIds = [];
     for (const icon of productIcons) {
         const dest = path.join(productIconsDir, `${icon.id}.svg`);
-        const srcAbs = resolveSrc(style, icon.src);
-        if (fs.existsSync(srcAbs)) {
+        const srcAbs = icon.svg ? null : resolveSrc(style, icon.src);
+        if (icon.svg) {
+            // Drawn in the manifest, not taken from the library.
+            fs.writeFileSync(dest, await traceGlyph(icon.svg, style.glyph));
+            copied++;
+        } else if (fs.existsSync(srcAbs)) {
             fs.writeFileSync(dest, await traceGlyph(fs.readFileSync(srcAbs, "utf8"), style.glyph));
             copied++;
         } else if (fs.existsSync(dest)) {
