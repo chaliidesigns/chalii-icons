@@ -4,6 +4,11 @@ All notable changes to **Makinda Icons** will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- 76 more product icons, so VS Code no longer mixes its default icons into the themes: the 24 symbol icons used in autocomplete and the outline, debug breakpoints and stack frames, testing and notebook icons, find and replace options, source control actions, layout and split icons, small arrows, the list and tree view toggles and the remote explorer icon. Every style now has 218 product icons.
+- The breakpoint, conditional breakpoint, unverified breakpoint, filled circle and outlined circle icons are drawn in the manifest, so they stay clearly different from each other in every style.
+
 ### Fixed
 
 - Product icon themes in the stroke, duotone, twotone and sharp stroke styles showed filled blobs, blank spots and hairlines instead of icons, because strokes cannot be stored in an icon font. They are now traced into proper outlines. The duotone and twotone product icons show the stroke shapes, since a font glyph has one color.
