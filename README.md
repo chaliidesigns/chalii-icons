@@ -321,7 +321,7 @@ MIT - see [LICENSE.md](LICENSE.md)
 
 ## 👤 Author
 
-**Chalii Designs** - design & engineering studio by Jackson Makinda - [makindajackson.com](https://makindajackson.com)
+**Chalii Designs** - design & engineering studio by Chalii wa UX/UI - [@chaliiwaui](https://github.com/chaliiwaui)
 
 - 📧 Email: me@makindajackson.com
 - 💼 LinkedIn: [Jackson Makinda](https://linkedin.com/in/makindajack)
